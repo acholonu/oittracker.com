@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Privacy Policy
+title: "Privacy Policy"
 ---
 
 # Privacy Policy
 
 **Effective Date:** January 2, 2026
-**Last Updated:** February 8, 2026
+**Last Updated:** February 10, 2026
 
 Jones Technical Enterprises, LLC ("we," "us," or "our") operates the OIT Tracker mobile application (the "App"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our App.
 
