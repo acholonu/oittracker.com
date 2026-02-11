@@ -419,6 +419,28 @@
       transform: translateY(0);
     }
 
+    /* Success/error messages below form */
+    .signup-msg {
+      font-size: 0.875rem;
+      text-align: center;
+      max-width: 420px;
+      margin: 0.75rem auto 0;
+      padding: 0.625rem 1rem;
+      border-radius: 10px;
+    }
+
+    .signup-msg--success {
+      background: var(--teal-dim);
+      color: var(--teal);
+      border: 1px solid rgba(93, 212, 192, 0.25);
+    }
+
+    .signup-msg--error {
+      background: rgba(248, 113, 113, 0.1);
+      color: #f87171;
+      border: 1px solid rgba(248, 113, 113, 0.25);
+    }
+
     .signup-note {
       font-size: 0.75rem;
       color: #4a5d6e;
@@ -705,6 +727,7 @@
       }
     }
   </style>
+
 </head>
 <body>
 
@@ -814,8 +837,11 @@
     <span class="badge">Coming Soon to the App Store</span>
     <h2>Get notified when we launch</h2>
     <p>Be the first to know when OIT Tracker is available.</p>
-    <form class="signup-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-      <input type="email" name="email" placeholder="you@example.com" required autocomplete="email" aria-label="Email address">
+    <form id="kit-form" class="signup-form"
+          action="https://app.kit.com/forms/9076770/subscriptions"
+          method="post">
+      <input type="email" name="email_address" placeholder="you@example.com"
+             required autocomplete="email" aria-label="Email address">
       <button type="submit">Notify Me</button>
     </form>
     <p class="signup-note">No spam, ever. Just one email when the app is ready.</p>
@@ -857,6 +883,50 @@
         targets.forEach(function (el) { el.classList.add('visible'); });
       }
     });
+  </script>
+
+  <!-- Kit form — AJAX submission (no ck.5.js needed) -->
+  <script>
+    var kitForm = document.getElementById('kit-form');
+    if (kitForm) {
+      kitForm.addEventListener('submit', function (e) {
+        e.preventDefault();
+        var btn = kitForm.querySelector('button');
+        var email = kitForm.querySelector('input[name="email_address"]').value;
+        btn.disabled = true;
+        btn.textContent = 'Sending\u2026';
+
+        // Remove any previous message
+        var prev = document.querySelector('.signup-msg');
+        if (prev) prev.remove();
+
+        fetch(kitForm.action, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+          body: JSON.stringify({ email_address: email })
+        })
+        .then(function (res) {
+          if (!res.ok) throw new Error('Request failed');
+          kitForm.reset();
+          showMsg('success', 'Success! Check your email to confirm your subscription.');
+        })
+        .catch(function () {
+          showMsg('error', 'Something went wrong. Please try again.');
+        })
+        .finally(function () {
+          btn.disabled = false;
+          btn.textContent = 'Notify Me';
+        });
+      });
+    }
+
+    function showMsg(type, text) {
+      var el = document.createElement('p');
+      el.className = 'signup-msg signup-msg--' + type;
+      el.textContent = text;
+      var note = document.querySelector('.signup-note');
+      note.parentNode.insertBefore(el, note);
+    }
   </script>
 
 </body>
