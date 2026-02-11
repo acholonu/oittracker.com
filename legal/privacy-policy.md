@@ -1,12 +1,12 @@
 ---
-layout: legal
+layout: default
 title: "Privacy Policy"
 ---
 
 # Privacy Policy
 
 **Effective Date:** January 2, 2026
-**Last Updated:** February 10, 2026
+**Last Updated:** February 11, 2026
 
 Jones Technical Enterprises, LLC ("we," "us," or "our") operates the OIT Tracker mobile application (the "App"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our App.
 
@@ -31,7 +31,11 @@ When you use the App, we automatically collect:
 
 - **Device Information:** Device type, operating system version, and app version
 
-### 1.3 Information We Do NOT Collect
+### 1.3 Website Waitlist
+
+If you sign up for our launch waitlist at oittracker.com, we collect your **email address only**. This email is stored and processed by Kit (ConvertKit), a third-party email service provider. We use it solely to notify you when the App is available. No health data, child information, or other personal details are collected through the waitlist form. You may unsubscribe at any time using the link in any email we send. Kit's privacy policy is available at [https://kit.com/privacy](https://kit.com/privacy).
+
+### 1.4 Information We Do NOT Collect
 
 We do **not** collect:
 
@@ -73,6 +77,7 @@ We share limited information with trusted service providers who help us operate 
 | Provider | Purpose | Data Shared |
 |----------|---------|-------------|
 | Google Cloud Platform | Backend hosting | Encrypted health data |
+| Kit (ConvertKit) | Waitlist email collection | Email address only |
 
 As we integrate additional service providers (such as analytics or push notifications), this table will be updated accordingly.
 
