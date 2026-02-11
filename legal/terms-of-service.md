@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: legal
 title: "Terms of Service"
 ---
 
@@ -94,7 +94,7 @@ You agree **not** to:
 
 ### 4.1 Your Data Ownership
 
-You own the health data you enter into the App. We store and process it solely to provide the service to you, as described in our [Privacy Policy](privacy-policy.md).
+You own the health data you enter into the App. We store and process it solely to provide the service to you, as described in our [Privacy Policy](/legal/privacy-policy).
 
 ### 4.2 Data Accuracy
 
