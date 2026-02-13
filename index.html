@@ -568,6 +568,35 @@
     }
 
     /* ========================================
+       Responsive — desktop feature card scaling
+       Icons & text sized up from mobile defaults
+       ======================================== */
+    @media (min-width: 769px) {
+      .feature-icon {
+        width: 44px;
+        height: 44px;
+        border-radius: 10px;
+      }
+
+      .feature-icon svg {
+        width: 22px;
+        height: 22px;
+      }
+
+      .feature-card h3 {
+        font-size: 1rem;
+      }
+
+      .feature-card p {
+        font-size: 0.875rem;
+      }
+
+      .feature-card {
+        padding: 1.5rem;
+      }
+    }
+
+    /* ========================================
        Responsive — tablet (≤ 960px)
        ======================================== */
     @media (max-width: 960px) {
