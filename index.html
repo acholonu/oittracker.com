@@ -660,17 +660,24 @@
         padding: 0.8125rem 1.5rem;
       }
 
+      /* Tighter CTA section */
+      .cta {
+        padding-top: 1rem;
+        padding-bottom: 2.5rem;
+      }
+
       .cta h2 {
         font-size: 1.25rem;
       }
 
+      /* Reduced hero padding and sizing */
       .hero {
-        padding-top: 3.5rem;
-        padding-bottom: 2.5rem;
+        padding-top: 2.5rem;
+        padding-bottom: 1.5rem;
       }
 
       .hero h1 {
-        font-size: 2.125rem;
+        font-size: 1.875rem;
       }
 
       .hero .subtitle {
@@ -678,43 +685,66 @@
       }
 
       .hero-icon {
-        width: 64px;
-        height: 64px;
-        border-radius: 16px;
+        width: 52px;
+        height: 52px;
+        border-radius: 14px;
         margin-bottom: 1.25rem;
       }
 
+      /* Tighter showcase spacing */
       .showcase {
-        padding-top: 2.5rem;
+        padding-top: 1.5rem;
+      }
+
+      .showcase-header {
+        margin-bottom: 1.75rem;
       }
 
       .showcase-header h2 {
         font-size: 1.3125rem;
       }
 
+      /* Keep 2-column cards on mobile instead of stacking to 1 */
       .features {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.625rem;
+        margin-top: 1.75rem;
       }
 
+      .feature-card {
+        padding: 0.875rem 1rem;
+      }
+
+      .feature-card p {
+        font-size: 0.6875rem;
+      }
+
+      /* Smaller phone mockup so it doesn't dominate viewport */
       .phone-frame {
-        max-width: 200px;
-        border-radius: 32px;
-        padding: 9px;
+        max-width: 170px;
+        border-radius: 28px;
+        padding: 8px;
       }
 
       .phone-frame::before {
-        width: 56px;
-        height: 16px;
-        top: 11px;
+        width: 48px;
+        height: 14px;
+        top: 10px;
       }
 
       .phone-screen {
-        border-radius: 24px;
+        border-radius: 21px;
       }
 
       nav {
         flex-direction: column;
         gap: 0.625rem;
+      }
+
+      /* Tighter trust section */
+      .trust {
+        padding-top: 2.5rem;
+        padding-bottom: 2rem;
       }
 
       .trust blockquote {
@@ -724,6 +754,68 @@
       footer, .trust {
         padding-left: 1.25rem;
         padding-right: 1.25rem;
+      }
+    }
+
+    /* ========================================
+       Responsive — small mobile (≤ 480px)
+       ======================================== */
+    @media (max-width: 480px) {
+      nav, .hero, .showcase, .cta {
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+
+      .hero h1 {
+        font-size: 1.625rem;
+      }
+
+      .phone-frame {
+        max-width: 160px;
+        border-radius: 26px;
+        padding: 7px;
+      }
+
+      .phone-frame::before {
+        width: 44px;
+        height: 13px;
+        top: 9px;
+      }
+
+      .phone-screen {
+        border-radius: 20px;
+      }
+
+      footer, .trust {
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+    }
+
+    /* ========================================
+       Responsive — narrow mobile (≤ 390px)
+       ======================================== */
+    @media (max-width: 390px) {
+      /* Stack cards to 1 column on very narrow screens */
+      .features {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+      }
+
+      .feature-card {
+        padding: 0.75rem 1rem;
+      }
+
+      .hero h1 {
+        font-size: 1.5rem;
+      }
+
+      .hero .subtitle {
+        font-size: 0.9375rem;
+      }
+
+      .showcase-header h2 {
+        font-size: 1.1875rem;
       }
     }
   </style>

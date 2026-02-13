@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: legal
 title: "Terms of Service"
 ---
 
