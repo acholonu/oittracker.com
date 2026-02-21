@@ -1,12 +1,12 @@
 ---
-layout: legal
+layout: default
 title: "Privacy Policy"
 ---
 
 # Privacy Policy
 
 **Effective Date:** January 2, 2026
-**Last Updated:** February 11, 2026
+**Last Updated:** February 21, 2026
 
 Jones Technical Enterprises, LLC ("we," "us," or "our") operates the OIT Tracker mobile application (the "App"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our App.
 
@@ -20,7 +20,6 @@ Jones Technical Enterprises, LLC ("we," "us," or "our") operates the OIT Tracker
 
 When you use the App, you may provide us with:
 
-- **Account Information:** Email address (if you create an account)
 - **Child Profile Information:** Your child's first name (nickname acceptable), date of birth (optional), photo (optional, stored on your device only — never uploaded to our servers), allergen information, and treatment details
 - **Health Data:** Dose logs (amount, date/time), reaction logs (symptoms, severity), sickness mode periods, and notes you add
 - **Device Information:** A unique device identifier used to associate your data with your device
