@@ -281,19 +281,17 @@
     .phone-screen {
       width: 100%;
       height: auto;
-      aspect-ratio: 706 / 1600;
       border-radius: 31px;
       display: block;
     }
 
-    /* Features — row 1, col 2 (stretches to match phone height) */
+    /* Features — row 1, col 2, top-aligned with phone */
     .features {
       grid-column: 2;
       grid-row: 1;
       display: grid;
       grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
-      gap: 0.875rem;
+      gap: 0.625rem 0.875rem;
     }
 
     /* Phone meta — row 2, col 1 */
@@ -321,7 +319,7 @@
        ======================================== */
     .cta {
       text-align: center;
-      padding: 1.5rem 2.5rem 3.5rem;
+      padding: 1rem 2.5rem 3.5rem;
       max-width: 1140px;
       margin: 0 auto;
     }
@@ -449,21 +447,27 @@
       text-align: center;
     }
 
-    /* Feature cards */
+    /* Feature cards — icon-left layout */
     .feature-card {
       background: var(--navy-card);
       border: 1px solid rgba(255, 255, 255, 0.04);
       border-radius: 12px;
-      padding: 1.125rem 1.25rem;
+      padding: 0.875rem 1rem;
       display: flex;
-      flex-direction: column;
-      justify-content: center;
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 0.75rem;
       transition: border-color 0.25s ease, transform 0.25s ease;
     }
 
     .feature-card:hover {
       border-color: rgba(93, 212, 192, 0.12);
       transform: translateY(-1px);
+    }
+
+    .feature-text {
+      flex: 1;
+      min-width: 0;
     }
 
     .feature-icon {
@@ -474,7 +478,6 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-bottom: 0.625rem;
       flex-shrink: 0;
     }
 
@@ -592,7 +595,7 @@
       }
 
       .feature-card {
-        padding: 1.5rem;
+        padding: 0.875rem 1rem;
       }
     }
 
@@ -651,7 +654,7 @@
       .features {
         grid-column: 1;
         grid-row: 3;
-        grid-template-rows: auto auto auto;
+        grid-template-rows: auto auto auto auto;
         max-width: 480px;
         width: 100%;
         margin-top: 2.5rem;
@@ -738,12 +741,24 @@
       /* Keep 2-column cards on mobile instead of stacking to 1 */
       .features {
         grid-template-columns: 1fr 1fr;
-        gap: 0.625rem;
+        gap: 0.5rem 0.625rem;
         margin-top: 1.75rem;
       }
 
       .feature-card {
-        padding: 0.875rem 1rem;
+        padding: 0.625rem 0.75rem;
+        gap: 0.5rem;
+      }
+
+      .feature-icon {
+        width: 28px;
+        height: 28px;
+        border-radius: 7px;
+      }
+
+      .feature-icon svg {
+        width: 14px;
+        height: 14px;
       }
 
       .feature-card p {
@@ -900,49 +915,79 @@
         </div>
       </div>
 
-      <!-- Feature cards — 2×3 grid stretches to match phone height -->
+      <!-- Feature cards — 2×4 grid, icon-left layout -->
       <div class="features">
         <div class="feature-card">
           <div class="feature-icon">
             <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
           </div>
-          <h3>Daily Dose Tracking</h3>
-          <p>Log each dose in seconds. See what was given, when, and at what amount.</p>
+          <div class="feature-text">
+            <h3>Daily Dose Tracking</h3>
+            <p>Log each dose in seconds. See what was given, when, and at what amount.</p>
+          </div>
         </div>
         <div class="feature-card">
           <div class="feature-icon">
             <svg viewBox="0 0 24 24"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
           </div>
-          <h3>Reaction Log</h3>
-          <p>Record symptoms with details and timestamps, ready for your next doctor visit.</p>
+          <div class="feature-text">
+            <h3>Reaction Log</h3>
+            <p>Record symptoms with details and timestamps, ready for your next doctor visit.</p>
+          </div>
         </div>
         <div class="feature-card">
           <div class="feature-icon">
             <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
           </div>
-          <h3>Allergy Action Plan</h3>
-          <p>Store your child's plan in the app. No digging through emails when it matters most.</p>
+          <div class="feature-text">
+            <h3>Allergy Action Plan</h3>
+            <p>Store your child's plan in the app. No digging through emails when it matters most.</p>
+          </div>
         </div>
         <div class="feature-card">
           <div class="feature-icon">
             <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
           </div>
-          <h3>Emergency Contacts</h3>
-          <p>Allergist, pediatrician, and emergency numbers in one tap. Easy to share with caregivers.</p>
+          <div class="feature-text">
+            <h3>Emergency Contacts</h3>
+            <p>Allergist, pediatrician, and emergency numbers in one tap. Easy to share with caregivers.</p>
+          </div>
         </div>
         <div class="feature-card">
           <div class="feature-icon">
             <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
           </div>
-          <h3>Dose History</h3>
-          <p>See your full timeline at a glance and track progress from the very first dose.</p>
+          <div class="feature-text">
+            <h3>Dose History</h3>
+            <p>See your full timeline at a glance and track progress from the very first dose.</p>
+          </div>
         </div>
         <div class="feature-card">
           <div class="feature-icon">
             <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
           </div>
-          <h3>Multiple Children</h3>
-          <p>Switch between profiles and keep each child's treatment plan separate.</p>
+          <div class="feature-text">
+            <h3>Multiple Children</h3>
+            <p>Switch between profiles and keep each child's treatment plan separate.</p>
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24"><path d="M14 14.76V3.5a2.5 2.5 0 00-5 0v11.26a4.5 4.5 0 105 0z"/></svg>
+          </div>
+          <div class="feature-text">
+            <h3>Sickness Mode</h3>
+            <p>Pause or reduce doses when your child is sick. Set it per allergen and get back on track when they're better.</p>
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24"><path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+          </div>
+          <div class="feature-text">
+            <h3>Daily Journal</h3>
+            <p>Add notes to any dose day — symptoms, observations, or questions for your next appointment.</p>
+          </div>
         </div>
       </div>
 
@@ -954,6 +999,8 @@
       </div>
     </div>
   </section>
+
+  <div class="divider"></div>
 
   <!-- CTA / Signup -->
   <section class="cta fade-in">
