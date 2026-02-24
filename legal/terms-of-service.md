@@ -6,7 +6,7 @@ title: "Terms of Service"
 # Terms of Service
 
 **Effective Date:** January 2, 2026
-**Last Updated:** January 2, 2026
+**Last Updated:** February 24, 2026
 
 Welcome to OIT Tracker. These Terms of Service ("Terms") govern your use of the OIT Tracker mobile application (the "App") operated by Jones Technical Enterprises, LLC ("we," "us," or "our").
 
@@ -58,11 +58,12 @@ You are responsible for:
 
 ### 2.3 Family Sharing
 
-We plan to offer family sharing in a future update. When available, if you invite family members to share access to your child's data:
+Family sharing is available through the Cloud/Family subscription tier (see Section 5.3). If you invite family members to share access to your child's data:
 
 - You are responsible for ensuring they agree to these Terms
 - You control their access and can revoke it at any time
 - You remain the primary account holder and data owner
+- Shared access is subject to the child limits of your active subscription tier
 
 ---
 
@@ -110,32 +111,61 @@ While we strive to maintain reliable service, we do not guarantee that:
 
 ---
 
-## 5. Subscriptions and Payments
+## 5. Purchases, Subscriptions, and Payments
 
-### 5.1 Free Features
+### 5.1 Pricing Tiers
 
-Basic features of the App are available for free, including local dose tracking and history.
+The App uses a tiered pricing model:
 
-### 5.2 Premium Features (Future)
+| Tier | Price | Child Limit |
+|------|-------|-------------|
+| Base (Offline) | $14.99 one-time purchase | Up to 2 children |
+| Cloud/Family Subscription | $11.99/month or $99.99/year (additive) | Up to 4 children |
+| Additional Children | $5/child/billing period (recurring) | Beyond 4 (Cloud/Family only) |
 
-We may offer premium features through in-app subscriptions, such as:
+The Base purchase is required before subscribing to Cloud/Family. Child limits are per device.
 
-- Cloud backup and sync
-- Family sharing
-- Export reports
+### 5.2 Base Purchase
 
-### 5.3 Subscription Terms
+The Base purchase is a one-time payment of $14.99 that unlocks all offline features of the App, including dose logging, calendar history, sickness mode, and updose scheduling. The Base tier supports up to 2 children per device.
 
-If you subscribe to premium features:
+### 5.3 Cloud/Family Subscription
+
+The Cloud/Family subscription is available for $11.99/month or $99.99/year. This subscription is additive -- it requires the Base purchase and adds cloud backup, cross-device sync, family sharing, and export reports. The Cloud/Family tier supports up to 4 children per device.
+
+### 5.4 Additional Children
+
+If you need to track more than 4 children, additional children may be added for $5 per child per billing period. This is a recurring charge assessed each billing period (monthly or annually, matching your Cloud/Family subscription cycle). Additional children are available only with an active Cloud/Family subscription.
+
+### 5.5 Trial Period
+
+New users receive a 14-day free trial with access to all features. During the trial, you may add up to 2 children. After the trial ends without a Base purchase, the App reverts to a limited state where dose logging and other active features are disabled until the Base purchase is completed.
+
+### 5.6 Subscription Terms
+
+If you subscribe to the Cloud/Family tier:
 
 - Payment is processed by Apple through the App Store
 - Subscriptions automatically renew unless cancelled at least 24 hours before the end of the current period
 - You can manage subscriptions in your Apple ID settings
 - Refunds are handled according to Apple's App Store policies
 
-### 5.4 Price Changes
+### 5.7 Downgrade and Lapse Policy
 
-We may change subscription prices with at least 30 days' notice. Existing subscribers will be notified before any price change affects their subscription.
+Because OIT Tracker is used for medical dose tracking, we take special care to protect your data during subscription changes:
+
+- **When Cloud/Family lapses:** Children beyond the Base tier's 2-child limit become "archived" (read-only). All historical data is retained and remains viewable, but new dose logging is disabled for archived children.
+- **Parent selection:** You may select which children remain active. If no selection is made, the most recently created children are archived first.
+- **Re-subscribing:** Restoring your Cloud/Family subscription immediately restores full access to all children, including those that were archived.
+- **Data retention:** Archived children's data is never automatically deleted. Only explicit account deletion triggers data removal, subject to the 90-day retention period described in Section 10.3.
+
+### 5.8 Promotional Programs
+
+We may offer promotional pricing, including a Founder's Tier or other limited-time offers. Promotional terms, eligibility, and duration will be disclosed at the time of the offer. Promotional pricing does not affect the standard pricing described in this Section 5 unless otherwise stated.
+
+### 5.9 Price Changes
+
+We may change subscription prices with at least 30 days' notice. Existing subscribers will be notified before any price change affects their subscription. One-time purchase prices (such as the Base purchase) may change for new purchasers without notice; completed purchases are not affected by subsequent price changes.
 
 ---
 
@@ -219,6 +249,8 @@ Upon termination:
 - Your right to use the App ends immediately
 - We will retain your data for 90 days, then delete it
 - Provisions that by their nature should survive (such as limitation of liability) will continue to apply
+
+**Note:** Account termination and data deletion are distinct from a subscription lapse. If your Cloud/Family subscription lapses, your data is retained and children beyond the Base tier limit become read-only (see Section 5.7). Data is only deleted upon explicit account deletion, subject to the 90-day retention period described above.
 
 ---
 

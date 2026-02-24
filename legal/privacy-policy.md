@@ -6,7 +6,7 @@ title: "Privacy Policy"
 # Privacy Policy
 
 **Effective Date:** January 2, 2026
-**Last Updated:** February 21, 2026
+**Last Updated:** February 24, 2026
 
 Jones Technical Enterprises, LLC ("we," "us," or "our") operates the OIT Tracker mobile application (the "App"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our App.
 
@@ -76,6 +76,7 @@ We share limited information with trusted service providers who help us operate 
 | Provider | Purpose | Data Shared |
 |----------|---------|-------------|
 | Google Cloud Platform | Backend hosting | Encrypted health data |
+| Apple (App Store) | Payment processing, subscription management | Purchase and subscription status (no financial details shared with us) |
 | Kit (ConvertKit) | Waitlist email collection | Email address only |
 
 As we integrate additional service providers (such as analytics or push notifications), this table will be updated accordingly.
