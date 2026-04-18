@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing-Page Variants · OIT Tracker Preview</title>
+  <meta name="description" content="Compare three landing-page variants side-by-side before picking one to deploy.">
+  <meta name="robots" content="noindex,nofollow">
+
+  <link rel="icon" type="image/png" href="../assets/images/icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+                   Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background-color: #0c141c;
+      color: #c8d2dc;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      min-height: 100vh;
+    }
+    :root {
+      --navy-deep:#0c141c; --navy-card:#15202d;
+      --teal:#5DD4C0; --teal-dim:rgba(93,212,192,0.15);
+      --text:#c8d2dc; --text-bright:#e8edf2; --muted:#6b7f94; --white:#ffffff;
+    }
+    a { color: var(--teal); text-decoration: none; transition: color 0.2s ease; }
+    a:hover { color: #7ee8d6; }
+
+    .wrap { max-width: 1280px; margin: 0 auto; padding: 3rem 2rem; }
+
+    header.page-head {
+      text-align: center; margin-bottom: 3rem;
+    }
+    header.page-head .kicker {
+      display: inline-block; padding: 0.25rem 0.75rem;
+      border-radius: 100px; background: var(--teal-dim); color: var(--teal);
+      font-size: 0.75rem; font-weight: 600; text-transform: uppercase;
+      letter-spacing: 0.05em; margin-bottom: 1rem;
+      border: 1px solid rgba(93,212,192,0.2);
+    }
+    header.page-head h1 {
+      font-size: 2.25rem; font-weight: 700; color: var(--white);
+      letter-spacing: -0.02em; margin-bottom: 0.75rem;
+    }
+    header.page-head p {
+      font-size: 1rem; color: var(--muted); max-width: 620px;
+      margin: 0 auto; line-height: 1.7;
+    }
+    header.page-head .compare-live {
+      display: inline-block; margin-top: 1.25rem;
+      font-size: 0.8125rem; color: var(--muted);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: var(--navy-card);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      border-radius: 16px;
+      padding: 1.5rem;
+      display: flex; flex-direction: column;
+      transition: border-color 0.25s ease, transform 0.25s ease;
+    }
+    .card:hover { border-color: rgba(93, 212, 192, 0.2); transform: translateY(-2px); }
+    .card .thumb {
+      aspect-ratio: 4/3;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+      overflow: hidden;
+      background: #0c141c;
+      border: 1px solid rgba(255,255,255,0.04);
+      position: relative;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .card .thumb img {
+      max-width: 60%; max-height: 88%;
+      object-fit: contain;
+      border-radius: 14px;
+      box-shadow: 0 12px 32px rgba(0,0,0,0.5);
+    }
+    .card .thumb.multi {
+      display: flex; align-items: center; justify-content: center; gap: 0.5rem;
+    }
+    .card .thumb.multi img {
+      max-width: 28%; max-height: 82%;
+      object-fit: contain;
+      border-radius: 8px;
+    }
+    .card .thumb .thumb-label {
+      position: absolute; top: 0.5rem; left: 0.5rem;
+      background: rgba(0,0,0,0.55); color: var(--teal);
+      font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.04em;
+      text-transform: uppercase; padding: 0.25rem 0.5rem; border-radius: 6px;
+    }
+    .card h2 {
+      font-size: 1.125rem; font-weight: 600; color: var(--text-bright);
+      margin-bottom: 0.5rem; letter-spacing: -0.01em;
+    }
+    .card p {
+      font-size: 0.875rem; color: var(--muted); line-height: 1.6;
+      margin-bottom: 1rem; flex-grow: 1;
+    }
+    .card ul {
+      list-style: none; margin-bottom: 1.25rem;
+      font-size: 0.8125rem; color: var(--text);
+    }
+    .card ul li {
+      padding: 0.25rem 0 0.25rem 1.25rem; position: relative;
+      line-height: 1.5;
+    }
+    .card ul li::before {
+      content: '✓'; position: absolute; left: 0;
+      color: var(--teal); font-weight: 700;
+    }
+    .card .actions {
+      display: flex; gap: 0.5rem;
+    }
+    .card .btn {
+      flex: 1; text-align: center;
+      padding: 0.625rem 1rem; border-radius: 8px;
+      font-size: 0.8125rem; font-weight: 600;
+      transition: background 0.2s ease, transform 0.15s ease;
+    }
+    .card .btn-primary { background: var(--teal); color: var(--navy-deep); }
+    .card .btn-primary:hover { background: #6ee0cc; color: var(--navy-deep); transform: translateY(-1px); }
+    .card .btn-secondary {
+      background: transparent; color: var(--muted);
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+    .card .btn-secondary:hover { color: var(--teal); border-color: rgba(93,212,192,0.3); }
+
+    .card-live {
+      background: rgba(21,32,45,0.5);
+      border-style: dashed;
+    }
+    .card-live .thumb { opacity: 0.75; }
+
+    .footer-note {
+      text-align: center; margin-top: 3rem;
+      font-size: 0.8125rem; color: var(--muted);
+      padding: 1rem; border-top: 1px solid rgba(255,255,255,0.04);
+    }
+
+    @media (max-width: 960px) {
+      .grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 640px) {
+      .wrap { padding: 2rem 1.25rem; }
+      header.page-head h1 { font-size: 1.75rem; }
+      .grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="wrap">
+    <header class="page-head">
+      <span class="kicker">Preview · not indexed</span>
+      <h1>Pick a landing-page variant</h1>
+      <p>
+        Three versions of oittracker.com built in response to the "cartoon screenshot" feedback.
+        Open each one in a new tab and compare. Once you pick a favorite, we promote its markup into <code>index.html</code>.
+      </p>
+      <a href="../index.html" class="compare-live" target="_blank" rel="noopener">
+        → Open the current live homepage in a new tab for comparison
+      </a>
+    </header>
+
+    <div class="grid">
+      <!-- Variant A -->
+      <article class="card">
+        <div class="thumb">
+          <span class="thumb-label">Variant A</span>
+          <img src="../assets/images/dosing-screen-real.png" alt="Real Dosing screenshot preview">
+        </div>
+        <h2>A — Screenshot swap only</h2>
+        <p>Minimal change. Replaces the cartoon mockup with a real iPhone 17 Pro screenshot. Everything else is identical to the live site.</p>
+        <ul>
+          <li>Real iOS status bar &amp; photo avatar</li>
+          <li>No structural changes</li>
+          <li>Fastest to ship, lowest risk</li>
+        </ul>
+        <div class="actions">
+          <a href="a-screenshot-swap.html" class="btn btn-primary" target="_blank" rel="noopener">Open preview</a>
+          <a href="../index.html" class="btn btn-secondary" target="_blank" rel="noopener">Compare live</a>
+        </div>
+      </article>
+
+      <!-- Variant B -->
+      <article class="card">
+        <div class="thumb multi">
+          <span class="thumb-label">Variant B</span>
+          <img src="../assets/images/welcome-screen.png" alt="Welcome screen thumbnail">
+          <img src="../assets/images/dosing-screen-real.png" alt="Dosing screen thumbnail">
+        </div>
+        <h2>B — Hero mockup added</h2>
+        <p>Variant A plus a phone mockup beside the hero headline. The Welcome screen becomes the first thing visitors see, giving the page a strong visual anchor.</p>
+        <ul>
+          <li>Two-column hero with Welcome screen</li>
+          <li>Dosing screen remains in the showcase</li>
+          <li>Medium effort, medium impact</li>
+        </ul>
+        <div class="actions">
+          <a href="b-hero-mockup.html" class="btn btn-primary" target="_blank" rel="noopener">Open preview</a>
+          <a href="../index.html" class="btn btn-secondary" target="_blank" rel="noopener">Compare live</a>
+        </div>
+      </article>
+
+      <!-- Variant C -->
+      <article class="card">
+        <div class="thumb multi">
+          <span class="thumb-label">Variant C</span>
+          <img src="../assets/images/welcome-screen.png" alt="Welcome thumbnail">
+          <img src="../assets/images/dosing-screen-real.png" alt="Dosing thumbnail">
+          <img src="../assets/images/history-screen.png" alt="History thumbnail">
+        </div>
+        <h2>C — Full polish</h2>
+        <p>Hero mockup, three-phone showcase (Welcome + Dosing + History), Features/About nav anchors, disabled App Store badge placeholder, and a strengthened founder section.</p>
+        <ul>
+          <li>Shows 3 screens instead of 1</li>
+          <li>Richer navigation &amp; trust section</li>
+          <li>Highest impact, largest diff to ship</li>
+        </ul>
+        <div class="actions">
+          <a href="c-full-polish.html" class="btn btn-primary" target="_blank" rel="noopener">Open preview</a>
+          <a href="../index.html" class="btn btn-secondary" target="_blank" rel="noopener">Compare live</a>
+        </div>
+      </article>
+    </div>
+
+    <p class="footer-note">
+      These preview pages are excluded from search engines and do not affect the live <a href="../index.html">oittracker.com</a> homepage.
+    </p>
+  </div>
+
+</body>
+</html>
