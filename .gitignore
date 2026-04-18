@@ -2,3 +2,9 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+
+# macOS
+.DS_Store
+
+# Claude Code ephemeral state (track .claude/plans/ but not worktrees)
+.claude/worktrees/
