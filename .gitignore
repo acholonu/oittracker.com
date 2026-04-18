@@ -8,3 +8,6 @@ _site/
 
 # Claude Code ephemeral state (track .claude/plans/ but not worktrees)
 .claude/worktrees/
+
+# Reference PDFs (food allergy action plans from public sources)
+allergy-plans/
