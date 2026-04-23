@@ -206,6 +206,7 @@
     .cta h2 { font-size: 1.5rem; font-weight: 600; color: var(--white); margin-bottom: 0.5rem; letter-spacing: -0.02em; }
     .cta > p { font-size: 0.9375rem; color: var(--muted); margin-bottom: 1.5rem; line-height: 1.6; }
     .signup-form { display: flex; gap: 0.625rem; max-width: 420px; margin: 0 auto 0.875rem; }
+    .hero-signup-form { margin: 0; width: 100%; max-width: 420px; }
     .signup-form input[type="email"] {
       flex: 1; padding: 0.75rem 1rem; border-radius: 10px;
       border: 1px solid rgba(255, 255, 255, 0.08); background: var(--navy-card);
@@ -355,7 +356,13 @@
         One app to manage your child's Oral Immunotherapy journey &mdash; doses, reactions, allergy plans, and emergency contacts. Less to remember, more peace of mind.
       </p>
       <div class="hero-actions">
-        <a href="#notify" class="btn-primary">Notify Me</a>
+        <form class="signup-form kit-form hero-signup-form"
+              action="https://app.kit.com/forms/9076770/subscriptions"
+              method="post">
+          <input type="email" name="email_address" placeholder="you@example.com"
+                 required autocomplete="email" aria-label="Email address">
+          <button type="submit">Notify Me</button>
+        </form>
         <span class="app-store-placeholder" title="Coming soon to the App Store">
           <svg viewBox="0 0 24 24"><path d="M12 20.94c1.5 0 2.75-1.06 3-2.5h-6c.25 1.44 1.5 2.5 3 2.5z"/><path d="M12 2.06C7.75 2.06 4.2 5.52 4.06 9.79c-.17 5.06 4.05 8.98 7.94 11.15 3.89-2.17 8.11-6.09 7.94-11.15C19.8 5.52 16.25 2.06 12 2.06z"/></svg>
           App Store &mdash; Coming Soon
@@ -507,7 +514,7 @@
     <span class="badge">Coming Soon to the App Store</span>
     <h2>Get notified when we launch</h2>
     <p>Be the first to know when OIT Tracker is available.</p>
-    <form id="kit-form" class="signup-form"
+    <form class="signup-form kit-form"
           action="https://app.kit.com/forms/9076770/subscriptions"
           method="post">
       <input type="email" name="email_address" placeholder="you@example.com"
@@ -564,8 +571,8 @@
 
   <!-- Kit form — AJAX submission -->
   <script>
-    var kitForm = document.getElementById('kit-form');
-    if (kitForm) {
+    var kitForms = document.querySelectorAll('.kit-form');
+    kitForms.forEach(function (kitForm) {
       kitForm.addEventListener('submit', function (e) {
         e.preventDefault();
         var btn = kitForm.querySelector('button');
@@ -573,7 +580,7 @@
         btn.disabled = true;
         btn.textContent = 'Sending\u2026';
 
-        var prev = document.querySelector('.signup-msg');
+        var prev = kitForm.parentNode.querySelector('.signup-msg');
         if (prev) prev.remove();
 
         fetch(kitForm.action, {
@@ -584,24 +591,23 @@
         .then(function (res) {
           if (!res.ok) throw new Error('Request failed');
           kitForm.reset();
-          showMsg('success', 'Success! Check your email to confirm your subscription.');
+          showMsg(kitForm, 'success', 'Success! Check your email to confirm your subscription.');
         })
         .catch(function () {
-          showMsg('error', 'Something went wrong. Please try again.');
+          showMsg(kitForm, 'error', 'Something went wrong. Please try again.');
         })
         .finally(function () {
           btn.disabled = false;
           btn.textContent = 'Notify Me';
         });
       });
-    }
+    });
 
-    function showMsg(type, text) {
+    function showMsg(form, type, text) {
       var el = document.createElement('p');
       el.className = 'signup-msg signup-msg--' + type;
       el.textContent = text;
-      var note = document.querySelector('.signup-note');
-      note.parentNode.insertBefore(el, note);
+      form.parentNode.insertBefore(el, form.nextSibling);
     }
   </script>
 
