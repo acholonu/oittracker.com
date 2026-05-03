@@ -6,7 +6,7 @@ title: "Privacy Policy"
 # Privacy Policy
 
 **Effective Date:** January 2, 2026
-**Last Updated:** February 24, 2026
+**Last Updated:** April 25, 2026
 
 Jones Technical Enterprises, LLC ("we," "us," or "our") operates the OIT Tracker mobile application (the "App"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our App.
 
@@ -22,7 +22,9 @@ When you use the App, you may provide us with:
 
 - **Child Profile Information:** Your child's first name (nickname acceptable), date of birth (optional), photo (optional, stored on your device only — never uploaded to our servers), allergen information, and treatment details
 - **Health Data:** Dose logs (amount, date/time), reaction logs (symptoms, severity), sickness mode periods, and notes you add
-- **Device Information:** A unique device identifier used to associate your data with your device
+- **Apple Sign-In Identifier:** When you sign in with Apple, we receive a stable Apple-issued user identifier ("Apple `sub`") that we use to associate your account across your devices. We do not receive your Apple ID password.
+- **Email Address (optional):** When you sign in with Apple, you may choose to share your email address (real or an Apple private-relay address). If shared, we use it only for account-related communication. Apple's Sign in with Apple is governed by [Apple's Privacy Policy](https://www.apple.com/legal/privacy/).
+- **Device Identifier:** A device-generated identifier used to coordinate offline sync between your devices and our servers. This identifier is created locally and is not derived from any hardware ID.
 
 ### 1.2 Information Collected Automatically
 
@@ -76,6 +78,7 @@ We share limited information with trusted service providers who help us operate 
 | Provider | Purpose | Data Shared |
 |----------|---------|-------------|
 | Google Cloud Platform | Backend hosting | Encrypted health data |
+| Apple (Sign in with Apple) | Account authentication and identity | Apple-issued user identifier; email address only if you choose to share it |
 | Apple (App Store) | Payment processing, subscription management | Purchase and subscription status (no financial details shared with us) |
 | Kit (ConvertKit) | Waitlist email collection | Email address only |
 
@@ -149,7 +152,7 @@ Parents can at any time:
 
 - Review their child's data within the App
 - Delete their child's profile and all associated data
-- Contact us at support@oittracker.app with questions
+- Contact us at support@oittracker.com with questions
 
 ---
 
@@ -159,7 +162,7 @@ Depending on your location, you may have the following rights:
 
 ### 6.1 Access and Portability
 
-You can view all your data within the App. To request a copy of your data in a portable format, contact us at support@oittracker.app.
+You can view all your data within the App. To request a copy of your data in a portable format, contact us at support@oittracker.com.
 
 ### 6.2 Correction
 
@@ -167,11 +170,11 @@ You can update or correct your data directly in the App.
 
 ### 6.3 Deletion
 
-You can request deletion of your account and all associated data by contacting us at support@oittracker.app. A self-service delete feature will be available in a future update.
+You can request deletion of your account and all associated data by contacting us at support@oittracker.com. A self-service delete feature will be available in a future update.
 
 ### 6.4 Opt-Out of Analytics
 
-Analytics controls will be available in a future update. In the meantime, contact us at support@oittracker.app to opt out of analytics collection.
+Analytics controls will be available in a future update. In the meantime, contact us at support@oittracker.com to opt out of analytics collection.
 
 ---
 
@@ -197,7 +200,7 @@ Your continued use of the App after changes constitutes acceptance of the update
 If you have questions about this Privacy Policy or our privacy practices, please contact us:
 
 **Jones Technical Enterprises, LLC**
-Email: support@oittracker.app
+Email: support@oittracker.com
 
 For privacy-specific inquiries, please include "Privacy" in the subject line.
 

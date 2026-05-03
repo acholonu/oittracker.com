@@ -6,7 +6,7 @@ title: "Terms of Service"
 # Terms of Service
 
 **Effective Date:** January 2, 2026
-**Last Updated:** February 24, 2026
+**Last Updated:** April 11, 2026
 
 Welcome to OIT Tracker. These Terms of Service ("Terms") govern your use of the OIT Tracker mobile application (the "App") operated by Jones Technical Enterprises, LLC ("we," "us," or "our").
 
@@ -58,12 +58,13 @@ You are responsible for:
 
 ### 2.3 Family Sharing
 
-Family sharing is available through the Cloud/Family subscription tier (see Section 5.3). If you invite family members to share access to your child's data:
+Family sharing is available to all subscribers (see Section 5). The number of caregiver seats depends on your active subscription tier. If you invite family members or other caregivers to share access to your child's data:
 
 - You are responsible for ensuring they agree to these Terms
 - You control their access and can revoke it at any time
 - You remain the primary account holder and data owner
-- Shared access is subject to the child limits of your active subscription tier
+- Shared access is subject to the caregiver seat limit and child limit of your active subscription tier
+- Family sharing functionality is planned for release and will be available in a future update; this Section will apply once the feature ships
 
 ---
 
@@ -113,59 +114,60 @@ While we strive to maintain reliable service, we do not guarantee that:
 
 ## 5. Purchases, Subscriptions, and Payments
 
-### 5.1 Pricing Tiers
+### 5.1 Subscription Tiers
 
-The App uses a tiered pricing model:
+The App is a subscription-only service. There is no one-time purchase. All paid tiers include the full feature set of the App.
 
-| Tier | Price | Child Limit |
-|------|-------|-------------|
-| Base (Offline) | $14.99 one-time purchase | Up to 2 children |
-| Cloud/Family Subscription | $11.99/month or $99.99/year (additive) | Up to 4 children |
-| Additional Children | $5/child/billing period (recurring) | Beyond 4 (Cloud/Family only) |
+| Tier | Price | Children | Caregiver Seats | Additional Features |
+|------|-------|----------|-----------------|---------------------|
+| Main (Monthly) | $12.99 / month | Up to 2 | Up to 2 | Full feature set, family sharing, cloud sync |
+| Main (Yearly) | $89.99 / year | Up to 2 | Up to 2 | Same as monthly |
+| Family (Yearly) | $149.99 / year | 5 or more | Up to 5 | Main features + allergist data export + priority support |
 
-The Base purchase is required before subscribing to Cloud/Family. Child limits are per device.
+A "caregiver seat" allows one additional person (such as a parent, grandparent, or school nurse) to share access to your child's data. A child may occupy a caregiver seat (for example, a self-managing teen logging their own doses); this does not reduce the child limit.
 
-### 5.2 Base Purchase
+### 5.2 Free Trial
 
-The Base purchase is a one-time payment of $14.99 that unlocks all offline features of the App, including dose logging, calendar history, sickness mode, and updose scheduling. The Base tier supports up to 2 children per device.
+New subscribers receive a **14-day free trial** with access to the full feature set, regardless of the tier selected at signup. The trial begins when you start the subscription and ends 14 days later. Your selected tier will automatically begin billing at the end of the trial unless you cancel before the trial ends. You can cancel at any time during the trial without being charged by managing your subscription in your Apple ID settings.
 
-### 5.3 Cloud/Family Subscription
+If you cancel or the trial ends without an active subscription, the App reverts to a read-only state: existing data remains viewable, but new dose logging and other data-entry features are disabled until you subscribe.
 
-The Cloud/Family subscription is available for $11.99/month or $99.99/year. This subscription is additive -- it requires the Base purchase and adds cloud backup, cross-device sync, family sharing, and export reports. The Cloud/Family tier supports up to 4 children per device.
-
-### 5.4 Additional Children
-
-If you need to track more than 4 children, additional children may be added for $5 per child per billing period. This is a recurring charge assessed each billing period (monthly or annually, matching your Cloud/Family subscription cycle). Additional children are available only with an active Cloud/Family subscription.
-
-### 5.5 Trial Period
-
-New users receive a 14-day free trial with access to all features. During the trial, you may add up to 2 children. After the trial ends without a Base purchase, the App reverts to a limited state where dose logging and other active features are disabled until the Base purchase is completed.
-
-### 5.6 Subscription Terms
-
-If you subscribe to the Cloud/Family tier:
+### 5.3 Subscription Terms
 
 - Payment is processed by Apple through the App Store
-- Subscriptions automatically renew unless cancelled at least 24 hours before the end of the current period
-- You can manage subscriptions in your Apple ID settings
+- **Subscriptions automatically renew** at the end of each billing period (monthly or yearly) at the then-current price for your tier
+- To avoid auto-renewal, you must cancel at least 24 hours before the end of the current period
+- You can manage and cancel subscriptions at any time in your Apple ID settings (Settings → Apple ID → Subscriptions on iOS)
 - Refunds are handled according to Apple's App Store policies
+- Any unused portion of a free trial is forfeited when you purchase a subscription, to the extent applicable by law
 
-### 5.7 Downgrade and Lapse Policy
+### 5.4 Tier Differences
+
+The Main tier and the Family tier provide the same core feature set — dose logging, sickness mode, calendar history, reactions, family sharing, cloud sync, and all other standard App features. The Family tier is intended for households that need more than 2 children or more than 2 caregiver seats, and additionally includes:
+
+- **Allergist data export:** Generate PDF/CSV/Excel reports (format selectable during export) for allergist appointments
+- **Priority support:** Faster response time for support inquiries
+
+### 5.5 Subscription Lapse and Read-Only State
 
 Because OIT Tracker is used for medical dose tracking, we take special care to protect your data during subscription changes:
 
-- **When Cloud/Family lapses:** Children beyond the Base tier's 2-child limit become "archived" (read-only). All historical data is retained and remains viewable, but new dose logging is disabled for archived children.
-- **Parent selection:** You may select which children remain active. If no selection is made, the most recently created children are archived first.
-- **Re-subscribing:** Restoring your Cloud/Family subscription immediately restores full access to all children, including those that were archived.
-- **Data retention:** Archived children's data is never automatically deleted. Only explicit account deletion triggers data removal, subject to the 90-day retention period described in Section 10.3.
+- **During Apple's billing retry / grace period:** Full access continues while Apple retries the billing transaction
+- **When a subscription fully expires:** The App enters a read-only state. All historical data — doses, reactions, notes, sickness-mode history, action plans — remains viewable. New dose logging and other data-entry features are disabled until you re-subscribe.
+- **Re-subscribing:** Restoring your subscription immediately restores full access
+- **Data retention:** Your data is never automatically deleted when a subscription lapses. Only explicit account deletion triggers data removal, subject to the 90-day retention period described in Section 10.3
 
-### 5.8 Promotional Programs
+### 5.6 Tier Changes
 
-We may offer promotional pricing, including a Founder's Tier or other limited-time offers. Promotional terms, eligibility, and duration will be disclosed at the time of the offer. Promotional pricing does not affect the standard pricing described in this Section 5 unless otherwise stated.
+You may change tiers (for example, upgrade from Main to Family, or switch between monthly and yearly billing) at any time via your Apple ID subscription settings. Tier changes follow Apple's standard proration rules. If you downgrade to a tier with fewer children or caregiver seats than you currently use, you will be asked which children remain active and which caregiver invitations remain valid before the downgrade takes effect.
 
-### 5.9 Price Changes
+### 5.7 Promotional Programs
 
-We may change subscription prices with at least 30 days' notice. Existing subscribers will be notified before any price change affects their subscription. One-time purchase prices (such as the Base purchase) may change for new purchasers without notice; completed purchases are not affected by subsequent price changes.
+We may offer promotional pricing, introductory offers, or limited-time discounts. Promotional terms, eligibility, and duration will be disclosed at the time of the offer. Promotional pricing does not affect the standard pricing described in this Section 5 unless otherwise stated.
+
+### 5.8 Price Changes
+
+We may change subscription prices with at least 30 days' notice. Existing subscribers will be notified before any price change affects their subscription, and you may cancel before the new price takes effect if you do not wish to continue.
 
 ---
 
@@ -236,7 +238,7 @@ You agree to indemnify and hold harmless Jones Technical Enterprises, LLC from a
 
 ### 10.1 By You
 
-You may stop using the App at any time. To delete your account and data, contact support@oittracker.app. A self-service delete feature will be available in a future update.
+You may stop using the App at any time. To delete your account and data, contact support@oittracker.com. A self-service delete feature will be available in a future update.
 
 ### 10.2 By Us
 
@@ -250,7 +252,7 @@ Upon termination:
 - We will retain your data for 90 days, then delete it
 - Provisions that by their nature should survive (such as limitation of liability) will continue to apply
 
-**Note:** Account termination and data deletion are distinct from a subscription lapse. If your Cloud/Family subscription lapses, your data is retained and children beyond the Base tier limit become read-only (see Section 5.7). Data is only deleted upon explicit account deletion, subject to the 90-day retention period described above.
+**Note:** Account termination and data deletion are distinct from a subscription lapse. If your subscription lapses, your data is retained and the App enters a read-only state (see Section 5.5). Data is only deleted upon explicit account deletion, subject to the 90-day retention period described above.
 
 ---
 
@@ -258,7 +260,7 @@ Upon termination:
 
 ### 11.1 Informal Resolution
 
-Before filing a formal dispute, please contact us at support@oittracker.app. We will try to resolve the issue informally within 30 days.
+Before filing a formal dispute, please contact us at support@oittracker.com. We will try to resolve the issue informally within 30 days.
 
 ### 11.2 Governing Law
 
@@ -310,7 +312,7 @@ You may not assign your rights under these Terms. We may assign our rights to a 
 If you have questions about these Terms, please contact us:
 
 **Jones Technical Enterprises, LLC**
-Email: support@oittracker.app
+Email: support@oittracker.com
 
 ---
 
