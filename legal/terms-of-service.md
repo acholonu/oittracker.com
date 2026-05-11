@@ -6,7 +6,7 @@ title: "Terms of Service"
 # Terms of Service
 
 **Effective Date:** January 2, 2026
-**Last Updated:** April 11, 2026
+**Last Updated:** May 10, 2026
 
 Welcome to OIT Tracker. These Terms of Service ("Terms") govern your use of the OIT Tracker mobile application (the "App") operated by Jones Technical Enterprises, LLC ("we," "us," or "our").
 
@@ -61,10 +61,10 @@ You are responsible for:
 Family sharing is available to all subscribers (see Section 5). The number of caregiver seats depends on your active subscription tier. If you invite family members or other caregivers to share access to your child's data:
 
 - You are responsible for ensuring they agree to these Terms
-- You control their access and can revoke it at any time
+- You control their access and can revoke it at any time, and revocation takes effect immediately
 - You remain the primary account holder and data owner
 - Shared access is subject to the caregiver seat limit and child limit of your active subscription tier
-- Family sharing functionality is planned for release and will be available in a future update; this Section will apply once the feature ships
+- The caregiver authenticates with their own Apple ID using Sign in with Apple; you do not share your Apple ID, password, or authentication tokens with them
 
 ---
 
@@ -76,7 +76,7 @@ You may use the App to:
 
 - Track your child's OIT doses, reactions, and notes
 - Review your child's treatment history
-- Share data with authorized family members (when available)
+- Share data with authorized family members and other caregivers via family sharing (Section 2.3)
 
 ### 3.2 Prohibited Uses
 
