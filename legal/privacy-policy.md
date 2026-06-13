@@ -6,7 +6,7 @@ title: "Privacy Policy"
 # Privacy Policy
 
 **Effective Date:** January 2, 2026
-**Last Updated:** May 10, 2026
+**Last Updated:** June 12, 2026
 
 Jones Technical Enterprises, LLC ("we," "us," or "our") operates the OIT Tracker mobile application (the "App"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our App.
 
@@ -22,6 +22,7 @@ When you use the App, you may provide us with:
 
 - **Child Profile Information:** Your child's first name (nickname acceptable), date of birth (optional), photo (optional, stored on your device only — never uploaded to our servers), allergen information, and treatment details
 - **Health Data:** Dose logs (amount, date/time), reaction logs (symptoms, severity), sickness mode periods, and notes you add
+- **Derived Treatment-Progress Metrics:** The App computes and stores server-side a set of derived metrics from your already-collected dose logs: per-allergen dose multipliers, dose counts, consistency dates, treatment milestone events (such as "first dose" or "reached a dose threshold"), and the associated dates. These are derived quantities — the App calculates them from dose logs you have already provided; they are not a new data source. We store them server-side and sync them across your account's devices for backup, cross-device continuity, and in-app progress trends. The fields carried are identifiers (UUIDs), numbers, enums, and dates only — no names, no free text.
 - **Apple Sign-In Identifier:** When you sign in with Apple, we receive a stable Apple-issued user identifier ("Apple `sub`") that we use to associate your account across your devices. We do not receive your Apple ID password.
 - **Email Address (optional):** When you sign in with Apple, you may choose to share your email address (real or an Apple private-relay address). If shared, we use it only for account-related communication. Apple's Sign in with Apple is governed by [Apple's Privacy Policy](https://www.apple.com/legal/privacy/).
 - **Device Identifier:** A device-generated identifier used to coordinate offline sync between your devices and our servers. This identifier is created locally and is not derived from any hardware ID.
@@ -98,17 +99,25 @@ These providers are contractually obligated to protect your data and use it only
 
 The App lets you invite family members and other caregivers (a co-parent, grandparent, nanny, or self-managing teen) to share access to your child's data on their own Apple ID. Family sharing is opt-in: it does not transmit any data until you explicitly create an invitation.
 
-**How invitations work.** From the in-App Account screen, you choose the caregiver's email address, the children to share, and a permission level — **View** (read-only) or **Edit** (read and write). The App generates a 16-character invite code valid for 7 days and shows it to you so you can share it through any channel (email, message, or in person). Until SMTP-based delivery ships, no data leaves the App without your action.
+**How invitations work.** From the in-App Account screen, you choose the recipient's email address, the children to share, and a **role** — **View** (read-only), **Edit** (read and write), or **Co-Owner** (a second full owner of the family; see "Co-owners" below). The App generates a 16-character invite code valid for 7 days and shows it to you so you can share it through any channel (email, message, or in person). Until SMTP-based delivery ships, no data leaves the App without your action.
 
-**What data flows.** Once a caregiver accepts an invitation on their device, they see the same dose history, reactions, notes, sickness-mode periods, and treatment information you see for the children you shared. Photos remain on the device that captured them and are never shared. The caregiver's permission level is checked on every read and every write — a View-only caregiver cannot log doses, edit treatments, or modify any record.
+**What data flows.** Once a caregiver accepts an invitation on their device, they see the same dose history, reactions, notes, sickness-mode periods, and treatment information you see for the children you shared — unless you have limited a View-only caregiver's visibility (see "Visibility controls" below). Photos remain on the device that captured them and are never shared. The caregiver's role is checked on every read and every write — a View-only caregiver cannot log doses, edit treatments, or modify any record.
 
-**Owner controls.** You remain the sole owner of your child's data. From the same Account screen you can:
+**Visibility controls for View-only caregivers.** For a **View** (read-only) caregiver — a babysitter or school nurse, say — you can additionally choose *which* record types they can see: **notes**, **dose history**, **reactions**, and the **updose schedule** are each independently hideable, per share. You choose at invite time and can change your choice later from the same Account screen. Safety information is never hideable: an accepted caregiver always sees the child's emergency action plan and its document, the doctor/clinic contact, the current sickness status, and the treated allergens — a caregiver who can't see what the child is allergic to can't keep them safe. These limits are enforced by our servers on every read (hidden records are also excluded from the caregiver's device sync), not merely hidden in the caregiver's app. If the same caregiver holds more than one share covering a child, they can see everything at least one of those shares allows. Edit caregivers and co-owners always see everything — hiding records from someone who can edit them would be incoherent.
 
-- See every caregiver you have invited and every share you have accepted from someone else
-- Revoke any caregiver's access at any time. **Revocation is immediate and silent** — the revoked caregiver loses access on their next request to our servers and receives no advance warning. Revocation removes future access; it cannot recall data the caregiver already viewed, downloaded, or printed.
+**Co-owners (a second full owner).** Unlike a View or Edit caregiver, a co-owner is a *second full owner* of your family's records. A co-owner can see and manage **every child in your family — existing children and any you add later — with the same access you have**, including editing and deleting records. A family can have **at most two adult owners** (you plus one co-owner). Only you (the family's creator) can invite a co-owner, and doing so does not use up a caregiver slot. A co-owner can choose to leave the family at any time, which removes their own access. Inviting a second full owner of your child's record is a meaningful sharing decision — we treat it the same way we treat any caregiver invitation: opt-in, never automatic, and revocable.
+
+**Owner controls.** You are the family's creator (the "primary owner"). From the same Account screen you can:
+
+- See every caregiver and co-owner you have invited, and every share you have accepted from someone else
+- Choose — and later change — which record types a View-only caregiver can see (the "Visibility controls" above)
+- Revoke any caregiver's or co-owner's access at any time. **Revocation is immediate and silent** — the removed person loses access on their next request to our servers and receives no advance warning. Revocation removes future access; it cannot recall data the person already viewed, downloaded, or printed.
 - Leave any share that someone else granted to you (the "leave" action is functionally the same as the owner revoking).
+- **Transfer ownership** of your family to your co-owner. After a transfer, the co-owner becomes the primary owner and you become the co-owner; the children's records move with the transfer. Transfer is explicit and can only be started by the current primary owner.
 
-**What we share with whom.** Caregiver invitations are stored on our servers along with the email address you provided, the invite code, the chosen permission level, and timestamps for creation, acceptance, and revocation. We do not share data with any third party as part of family sharing. The accepting caregiver authenticates via Sign in with Apple just like the inviting parent; the same data-protection commitments in this policy apply to both.
+**No automatic inheritance.** If you delete your account without first transferring ownership, your family's records follow the normal account-deletion path in Section 4.3 (90-day retention, then permanent deletion). A co-owner does **not** automatically inherit your children's records — ownership only ever moves through the explicit transfer above.
+
+**What we share with whom.** Caregiver and co-owner invitations are stored on our servers along with the email address you provided, the invite code, the chosen role, and timestamps for creation, acceptance, and revocation. We do not share data with any third party as part of family sharing. The accepting person authenticates via Sign in with Apple just like the inviting parent; the same data-protection commitments in this policy apply to every adult with access.
 
 ### 3.4 Legal Requirements
 
@@ -136,11 +145,12 @@ We implement industry-standard security measures:
 
 - **Active Accounts:** We retain your data as long as your account is active
 - **After Deletion:** If you delete your account, we retain your data for 90 days (to allow recovery if you change your mind), then permanently delete it
+- **Derived Treatment-Progress Metrics:** The derived metrics described in Section 1.1 follow the same lifecycle as your dose logs. They are retained while your account is active. On account deletion, they are soft-deleted and permanently purged within the same 90-day window as the rest of your account data.
 - **Anonymous Product Telemetry:** Because telemetry events (Section 1.2) are tied to an anonymous per-install identifier rather than to your account, they are not removed by account deletion. We retain individual telemetry events only as long as needed for product analytics — in any case, no longer than 18 months — after which they are deleted or aggregated.
 
 ### 4.4 Family-Share Revocation
 
-When you revoke a caregiver's access (Section 3.3), the change takes effect immediately on our servers. The revoked caregiver receives no advance warning and no notification — their next read or write to your child's records returns an authorization error and the records disappear from their device on the next sync. Revocation removes future access only; it cannot recall data the caregiver already viewed on their device, exported, or shared elsewhere. The same behaviour applies when a caregiver leaves a share you granted them. We retain the share record (status flipped to "revoked") for the standard 90-day account retention window so revocation is auditable for both parties; the underlying child data is unaffected by the revocation.
+When you revoke a caregiver's or co-owner's access (Section 3.3), the change takes effect immediately on our servers. The removed person receives no advance warning and no notification — their next read or write to your child's records returns an authorization error and the records disappear from their device on the next sync. Revocation removes future access only; it cannot recall data the person already viewed on their device, exported, or shared elsewhere. The same behaviour applies when a caregiver or co-owner leaves a share you granted them; removing a co-owner also dissolves the co-ownership link so they revert to having no access. We retain the share record (status flipped to "revoked") for the standard 90-day account retention window so revocation is auditable for both parties; the underlying child data is unaffected by the revocation.
 
 ---
 
@@ -163,6 +173,7 @@ We collect only the minimum information necessary to provide the service:
 - Photo (optional, stored on your device only — never uploaded to our servers)
 - Allergen and treatment information
 - Dose and reaction logs
+- Derived treatment-progress metrics computed from the above dose logs (see Section 1.1)
 
 We do **not** collect children's:
 
