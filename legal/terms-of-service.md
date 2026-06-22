@@ -6,7 +6,7 @@ title: "Terms of Service"
 # Terms of Service
 
 **Effective Date:** January 2, 2026
-**Last Updated:** June 8, 2026
+**Last Updated:** June 21, 2026
 
 Welcome to OIT Tracker. These Terms of Service ("Terms") govern your use of the OIT Tracker mobile application (the "App") operated by Jones Technical Enterprises, LLC ("we," "us," or "our").
 
@@ -58,13 +58,13 @@ You are responsible for:
 
 ### 2.3 Family Sharing
 
-Family sharing is available to all subscribers (see Section 5). The number of caregiver seats depends on your active subscription tier. If you invite family members or other caregivers to share access to your child's data:
+Family sharing is available to all subscribers (see Section 5). Caregivers you invite hold one of two access levels: **Editors**, who can log doses and write to your child's records, and **Viewers**, who have read-only access. The primary owner and an optional co-owner are free Editors on every tier; beyond them, the number of **edit-permission caregivers** you may add as Editors depends on your active subscription tier. **The number of Viewers you may add also depends on your subscription tier** (up to 1 on Family, up to 5 on Family+); see Section 5.1. If you invite family members or other caregivers to share access to your child's data:
 
 - You are responsible for ensuring they agree to these Terms
 - You control their access and can revoke it at any time, and revocation takes effect immediately
-- As the family's creator you are the primary owner. You may invite **one** other adult as a **co-owner** — a second full owner of your family's records — and you may **transfer** primary ownership to that co-owner. A family has at most two adult owners. Co-ownership does not consume a caregiver seat
+- As the family's creator you are the primary owner. You may invite **one** other adult as a **co-owner** — a second full owner of your family's records — and you may **transfer** primary ownership to that co-owner. A family has at most two adult owners. A co-owner is a free Editor and does not count against your tier's caregiver-Editor cap
 - If you delete your account without first transferring ownership, your family's records follow the standard account-deletion process; a co-owner does not automatically inherit them
-- Shared access is subject to the caregiver seat limit and child limit of your active subscription tier
+- Shared access is subject to your active subscription tier's child limit, Editor cap, and Viewer cap; see Section 5.1
 - The caregiver or co-owner authenticates with their own Apple ID using Sign in with Apple; you do not share your Apple ID, password, or authentication tokens with them
 
 ---
@@ -117,15 +117,15 @@ While we strive to maintain reliable service, we do not guarantee that:
 
 ### 5.1 Subscription Tiers
 
-The App is a subscription-only service. There is no one-time purchase. All paid tiers include the full feature set of the App.
+The App is a subscription-only service. There is no one-time purchase. Both tiers include the App's safety-critical features (dose logging, sickness mode, calendar history, reactions, family sharing, offline use, and cloud sync); the Family+ tier adds convenience features and perks, as described in Section 5.4.
 
-| Tier | Price | Children | Caregiver Seats | Additional Features |
-|------|-------|----------|-----------------|---------------------|
-| Main (Monthly) | $12.99 / month | Up to 2 | Up to 2 | Full feature set, family sharing, cloud sync |
-| Main (Yearly) | $89.99 / year | Up to 2 | Up to 2 | Same as monthly |
-| Family (Yearly) | $149.99 / year | 5 or more | Up to 5 | Main features + allergist data export + priority support |
+| Tier | Price | Children | Editors / Viewers | Additional Features |
+|------|-------|----------|-------------------|---------------------|
+| Family (Monthly) | $12.99 / month | Up to 1 | Editors (can log doses): you + an optional co-owner (free); Viewers (read-only): up to 1 | Safety-critical features, family sharing, cloud sync |
+| Family (Yearly) | $89.99 / year | Up to 1 | Editors (can log doses): you + an optional co-owner (free); Viewers (read-only): up to 1 | Same as monthly |
+| Family+ (Yearly) | $149.99 / year | Up to 3 | Editors (can log doses): you + an optional co-owner (free) + up to 2 caregivers; Viewers (read-only): up to 5 | Family features + a larger caregiver network + cloud action-plan parsing + priority support |
 
-A "caregiver seat" allows one additional person (such as a parent, grandparent, or school nurse) to share access to your child's data. A child may occupy a caregiver seat (for example, a self-managing teen logging their own doses); this does not reduce the child limit.
+An **Editor** is a person who can log doses and write to your child's records. The primary owner and an optional co-owner are free Editors on every tier; beyond them you may add **edit-permission caregivers** as Editors, up to your tier's cap (0 on Family, up to 2 on Family+). A **Viewer** is a person with read-only access (for example, a grandparent or school nurse who only needs to see the records); Viewers are **capped at 1 on Family and 5 on Family+**. A child may hold an Editor or Viewer role (for example, a self-managing teen logging their own doses); this does not reduce the child limit.
 
 ### 5.2 Free Trial
 
@@ -144,9 +144,10 @@ If you cancel or the trial ends without an active subscription, the App reverts 
 
 ### 5.4 Tier Differences
 
-The Main tier and the Family tier provide the same core feature set — dose logging, sickness mode, calendar history, reactions, family sharing, cloud sync, and all other standard App features. The Family tier is intended for households that need more than 2 children or more than 2 caregiver seats, and additionally includes:
+The Family tier and the Family+ tier share the same **safety-critical** feature set — dose logging, sickness mode, calendar history, reactions, family sharing, offline use, and cloud sync are available on **both** tiers. The Family+ tier is intended for households that need more than 1 child, additional dose-logging caregivers, or a larger viewer network, and additionally includes the following, which are **Family+ only**:
 
-- **Allergist data export:** Generate PDF/CSV/Excel reports (format selectable during export) for allergist appointments
+- **A larger caregiver network:** Up to 3 children, up to 2 edit-permission caregivers (beyond the free owner + co-owner), and up to 5 viewers
+- **Cloud action-plan parsing:** Automated extraction of your child's allergist action plan using our cloud parsing service
 - **Priority support:** Faster response time for support inquiries
 
 ### 5.5 Subscription Lapse and Read-Only State
@@ -160,7 +161,7 @@ Because OIT Tracker is used for medical dose tracking, we take special care to p
 
 ### 5.6 Tier Changes
 
-You may change tiers (for example, upgrade from Main to Family, or switch between monthly and yearly billing) at any time via your Apple ID subscription settings. Tier changes follow Apple's standard proration rules. If you downgrade to a tier with fewer children or caregiver seats than you currently use, you will be asked which children remain active and which caregiver invitations remain valid before the downgrade takes effect.
+You may change tiers (for example, upgrade from Family to Family+, or switch between monthly and yearly billing) at any time via your Apple ID subscription settings. Tier changes follow Apple's standard proration rules. If you downgrade to a tier with fewer children, fewer Editors, or fewer Viewers than you currently use, you will be asked which children remain active and which caregiver invitations remain valid before the downgrade takes effect.
 
 ### 5.7 Promotional Programs
 
