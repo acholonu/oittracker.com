@@ -6,7 +6,7 @@ title: "Privacy Policy"
 # Privacy Policy
 
 **Effective Date:** January 2, 2026
-**Last Updated:** June 12, 2026
+**Last Updated:** June 23, 2026
 
 Jones Technical Enterprises, LLC ("we," "us," or "our") operates the OIT Tracker mobile application (the "App"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our App.
 
@@ -206,11 +206,11 @@ You can update or correct your data directly in the App.
 
 ### 6.3 Deletion
 
-You can request deletion of your account and all associated data by contacting us at support@oittracker.com. A self-service delete feature will be available in a future update.
+You can delete your account and all associated data directly in the App: go to **Settings → Account** and tap **Delete Account** in the Danger Zone. You can also request deletion by contacting us at support@oittracker.com.
 
 ### 6.4 Opt-Out of Analytics
 
-The anonymous product-telemetry described in Section 1.2 is on by default. A self-service in-App control to disable telemetry will be available in a future update. In the meantime, contact us at support@oittracker.com to opt out, and we will disable telemetry collection for your installation.
+The anonymous product-telemetry described in Section 1.2 is on by default. You can turn it off at any time in the App: go to **Settings → Privacy & Data** and switch off **Share Anonymous Analytics**. Turning it off stops the App from collecting any further telemetry and discards any events still queued on your device that have not yet been sent. (Telemetry already transmitted before you opted out is anonymous and is retained as described in Section 4.3.) If you need help, contact us at support@oittracker.com.
 
 ---
 
