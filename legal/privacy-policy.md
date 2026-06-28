@@ -21,7 +21,7 @@ Jones Technical Enterprises, LLC ("we," "us," or "our") operates the OIT Tracker
 When you use the App, you may provide us with:
 
 - **Child Profile Information:** Your child's first name (nickname acceptable), date of birth (optional), photo (optional, stored on your device only — never uploaded to our servers), allergen information, and treatment details
-- **Doctor/Clinic Contact Information (optional):** Your child's allergist or clinic contact details — doctor name, office and after-hours phone numbers, email, clinic name, and clinic address. You enter these so you can quickly call the office or get directions from the Doctor tab. See Section 2 for how the clinic address is used with Apple Maps.
+- **Doctor/Clinic Contact Information (optional):** Your child's allergist or clinic contact details — doctor name, office and after-hours phone numbers, email, clinic name, and clinic address. You enter these so you can quickly call the office and view the clinic address from the Doctor tab.
 - **Health Data:** Dose logs (amount, date/time), reaction logs (symptoms, severity), sickness mode periods, and notes you add
 - **Derived Treatment-Progress Metrics:** The App computes and stores server-side a set of derived metrics from your already-collected dose logs: per-allergen dose multipliers, dose counts, consistency dates, treatment milestone events (such as "first dose" or "reached a dose threshold"), and the associated dates. These are derived quantities — the App calculates them from dose logs you have already provided; they are not a new data source. We store them server-side and sync them across your account's devices for backup, cross-device continuity, and in-app progress trends. The fields carried are identifiers (UUIDs), numbers, enums, and dates only — no names, no free text.
 - **Apple Sign-In Identifier:** When you sign in with Apple, we receive a stable Apple-issued user identifier ("Apple `sub`") that we use to associate your account across your devices. We do not receive your Apple ID password.
@@ -64,7 +64,6 @@ We use the information we collect to:
 - **Sync Across Devices:** If you use cloud sync (available in a future update), synchronize your data across your devices
 - **Improve the App:** Analyze anonymous product-telemetry events (Section 1.2) to understand how features are used, find bugs, and prioritize improvements. Telemetry is never combined with your child's profile or health data.
 - **Configure Features Remotely:** Use the feature-configuration request (Section 1.2) to gradually roll out new features, disable a feature that is misbehaving, or enable a feature for a specific App version without requiring you to update the App.
-- **Show Your Doctor's Location:** If you enter your doctor's clinic address, display an in-app map preview and provide directions using Apple Maps. This sends the clinic address to Apple to render the map and route; the resulting map is shown on your device and we do not store the map coordinates on our servers. Apple Maps is governed by [Apple's Privacy Policy](https://www.apple.com/legal/privacy/).
 - **Communicate With You:** Respond to support requests you send us
 - **Ensure Safety:** Monitor for security threats and abuse
 
@@ -91,7 +90,6 @@ We share limited information with trusted service providers who help us operate 
 | Google Cloud Platform | Backend hosting | Encrypted health data |
 | Apple (Sign in with Apple) | Account authentication and identity | Apple-issued user identifier; email address only if you choose to share it |
 | Apple (App Store) | Payment processing, subscription management | Purchase and subscription status (no financial details shared with us) |
-| Apple (Maps) | Map preview and directions for your doctor's clinic | Clinic address only, when you enter one (sent to Apple to render a map and provide directions) |
 | Kit (ConvertKit) | Waitlist email collection | Email address only |
 
 As we integrate additional service providers (such as analytics or push notifications), this table will be updated accordingly.
