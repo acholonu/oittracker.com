@@ -123,7 +123,8 @@ The App is a subscription-only service. There is no one-time purchase. Both tier
 |------|-------|----------|-------------------|---------------------|
 | Family (Monthly) | $12.99 / month | Up to 1 | Editors (can log doses): you + an optional co-owner (free); Viewers (read-only): up to 1 | Safety-critical features, family sharing, cloud sync |
 | Family (Yearly) | $89.99 / year | Up to 1 | Editors (can log doses): you + an optional co-owner (free); Viewers (read-only): up to 1 | Same as monthly |
-| Family+ (Yearly) | $149.99 / year | Up to 3 | Editors (can log doses): you + an optional co-owner (free) + up to 2 caregivers; Viewers (read-only): up to 5 | Family features + a larger caregiver network + cloud action-plan parsing + priority support |
+| Family+ (Monthly) | $19.99 / month | Up to 3 | Editors (can log doses): you + an optional co-owner (free) + up to 2 caregivers; Viewers (read-only): up to 5 | Family features + a larger caregiver network + cloud action-plan parsing + priority support |
+| Family+ (Yearly) | $149.99 / year | Up to 3 | Editors (can log doses): you + an optional co-owner (free) + up to 2 caregivers; Viewers (read-only): up to 5 | Same as Family+ monthly |
 
 An **Editor** is a person who can log doses and write to your child's records. The primary owner and an optional co-owner are free Editors on every tier; beyond them you may add **edit-permission caregivers** as Editors, up to your tier's cap (0 on Family, up to 2 on Family+). A **Viewer** is a person with read-only access (for example, a grandparent or school nurse who only needs to see the records); Viewers are **capped at 1 on Family and 5 on Family+**. A child may hold an Editor or Viewer role (for example, a self-managing teen logging their own doses); this does not reduce the child limit.
 
