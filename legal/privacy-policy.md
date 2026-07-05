@@ -6,7 +6,7 @@ title: "Privacy Policy"
 # Privacy Policy
 
 **Effective Date:** January 2, 2026
-**Last Updated:** June 28, 2026
+**Last Updated:** July 2, 2026
 
 Jones Technical Enterprises, LLC ("we," "us," or "our") operates the OIT Tracker mobile application (the "App"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our App.
 
@@ -91,6 +91,7 @@ We share limited information with trusted service providers who help us operate 
 | Apple (Sign in with Apple) | Account authentication and identity | Apple-issued user identifier; email address only if you choose to share it |
 | Apple (App Store) | Payment processing, subscription management | Purchase and subscription status (no financial details shared with us) |
 | Kit (ConvertKit) | Waitlist email collection | Email address only |
+| Amazon Web Services (SES) | Delivery of caregiver-invitation emails | Recipient email address and the invite code only — never health data or names |
 
 As we integrate additional service providers (such as analytics or push notifications), this table will be updated accordingly.
 
@@ -100,7 +101,7 @@ These providers are contractually obligated to protect your data and use it only
 
 The App lets you invite family members and other caregivers (a co-parent, grandparent, nanny, or self-managing teen) to share access to your child's data on their own Apple ID. Family sharing is opt-in: it does not transmit any data until you explicitly create an invitation.
 
-**How invitations work.** From the in-App Account screen, you choose the recipient's email address, the children to share, and a **role** — **View** (read-only), **Edit** (read and write), or **Co-Owner** (a second full owner of the family; see "Co-owners" below). The App generates a 16-character invite code valid for 7 days and shows it to you so you can share it through any channel (email, message, or in person). Until SMTP-based delivery ships, no data leaves the App without your action.
+**How invitations work.** From the in-App Account screen, you choose the recipient's email address, the children to share, and a **role** — **View** (read-only), **Edit** (read and write), or **Co-Owner** (a second full owner of the family; see "Co-owners" below). The App generates a 16-character invite code valid for 7 days and emails it to the address you entered (delivered via Amazon Web Services SES — see Section 3.2). The invitation email contains only the invite code and instructions to accept it — never your name, your child's name, or any health information. The code is also shown to you in the App so you can share it yourself through any channel (email, message, or in person) — for example, if the email doesn't arrive. No data is shared with the recipient until they accept the invitation.
 
 **What data flows.** Once a caregiver accepts an invitation on their device, they see the same dose history, reactions, notes, sickness-mode periods, and treatment information you see for the children you shared — unless you have limited a View-only caregiver's visibility (see "Visibility controls" below). Photos remain on the device that captured them and are never shared. The caregiver's role is checked on every read and every write — a View-only caregiver cannot log doses, edit treatments, or modify any record.
 
@@ -118,7 +119,7 @@ The App lets you invite family members and other caregivers (a co-parent, grandp
 
 **No automatic inheritance.** If you delete your account without first transferring ownership, your family's records follow the normal account-deletion path in Section 4.3 (90-day retention, then permanent deletion). A co-owner does **not** automatically inherit your children's records — ownership only ever moves through the explicit transfer above.
 
-**What we share with whom.** Caregiver and co-owner invitations are stored on our servers along with the email address you provided, the invite code, the chosen role, and timestamps for creation, acceptance, and revocation. We do not share data with any third party as part of family sharing. The accepting person authenticates via Sign in with Apple just like the inviting parent; the same data-protection commitments in this policy apply to every adult with access.
+**What we share with whom.** Caregiver and co-owner invitations are stored on our servers along with the email address you provided, the invite code, the chosen role, and timestamps for creation, acceptance, and revocation. To deliver the invitation email, the recipient's email address and the invite code pass through Amazon Web Services SES (our transactional email provider — see Section 3.2); no health data, child names, or other personal details are included in that email. Beyond that delivery step, we do not share data with any third party as part of family sharing. The accepting person authenticates via Sign in with Apple just like the inviting parent; the same data-protection commitments in this policy apply to every adult with access.
 
 ### 3.4 Legal Requirements
 
