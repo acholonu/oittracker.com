@@ -6,7 +6,7 @@ title: "Terms of Service"
 # Terms of Service
 
 **Effective Date:** January 2, 2026
-**Last Updated:** June 21, 2026
+**Last Updated:** June 23, 2026
 
 Welcome to OIT Tracker. These Terms of Service ("Terms") govern your use of the OIT Tracker mobile application (the "App") operated by Jones Technical Enterprises, LLC ("we," "us," or "our").
 
@@ -25,7 +25,7 @@ Welcome to OIT Tracker. These Terms of Service ("Terms") govern your use of the 
 - **Always** follow the instructions of your child's allergist or healthcare provider
 - **Never** change doses, skip doses, or modify treatment based solely on information in the App
 - **Always** seek immediate medical attention if your child experiences a severe allergic reaction
-- The App's "sickness mode" feature provides general guidance but **does not replace** your doctor's specific instructions for your child
+- The App's "sickness mode" is a **tracking feature only.** It lets you record periods of illness and log doses during those periods. It does **not** tell you whether, when, why, or how to adjust dosing during illness, and it provides no medical guidance of any kind — those decisions are entirely yours, in consultation with your child's allergist or healthcare provider
 
 ### 1.3 No Medical Recommendations
 
@@ -241,7 +241,7 @@ You agree to indemnify and hold harmless Jones Technical Enterprises, LLC from a
 
 ### 10.1 By You
 
-You may stop using the App at any time. To delete your account and data, contact support@oittracker.com. A self-service delete feature will be available in a future update.
+You may stop using the App at any time. You can delete your account and all associated data from within the App, under **Account → Delete Account**; deletion is subject to the 90-day recovery period described in Section 10.3. You may also contact support@oittracker.com if you need assistance.
 
 ### 10.2 By Us
 
@@ -307,6 +307,17 @@ Our failure to enforce any provision of these Terms does not waive our right to 
 ### 13.4 Assignment
 
 You may not assign your rights under these Terms. We may assign our rights to a successor or affiliate.
+
+### 13.5 Apple App Store Terms
+
+OIT Tracker is distributed through the Apple App Store. Your license to use the App is also governed by Apple's standard **Licensed Application End User License Agreement (EULA)**, available at [https://www.apple.com/legal/internet-services/itunes/dev/stdeula/](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/). If there is any conflict between these Terms and Apple's standard EULA regarding your license to use the App, Apple's EULA governs that license. In addition:
+
+- These Terms are an agreement between you and Jones Technical Enterprises, LLC only, **not with Apple.** Apple is not responsible for the App or its content.
+- Apple has no obligation to provide maintenance or support for the App; we are solely responsible for support, as described in these Terms.
+- Apple is not responsible for any product warranties. If the App fails to conform to any applicable warranty, you may notify Apple, and Apple may refund the purchase price (if any); to the maximum extent permitted by law, Apple has no other warranty obligation regarding the App.
+- We, not Apple, are responsible for addressing any claims relating to the App, including product-liability, regulatory, and intellectual-property claims.
+- You represent that you are not located in a country subject to a U.S. Government embargo or designated "terrorist-supporting," and that you are not on any U.S. Government prohibited-party list.
+- **Apple and Apple's subsidiaries are third-party beneficiaries of these Terms, and Apple has the right to enforce these Terms against you as a third-party beneficiary.**
 
 ---
 

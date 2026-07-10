@@ -62,7 +62,7 @@ We do **not** collect:
 We use the information we collect to:
 
 - **Provide the Service:** Store and display your dose logs, reactions, and treatment history
-- **Sync Across Devices:** If you use cloud sync (available in a future update), synchronize your data across your devices
+- **Sync Across Devices:** Synchronize your dose logs, reactions, notes, sickness-mode history, and account information across your devices and with caregivers you have authorized (Section 3.3)
 - **Improve the App:** Analyze anonymous product-telemetry events (Section 1.2) to understand how features are used, find bugs, and prioritize improvements. Telemetry is never combined with your child's profile or health data.
 - **Configure Features Remotely:** Use the feature-configuration request (Section 1.2) to gradually roll out new features, disable a feature that is misbehaving, or enable a feature for a specific App version without requiring you to update the App.
 - **Communicate With You:** Respond to support requests you send us
@@ -132,8 +132,9 @@ We may disclose your information if required by law, such as in response to a co
 
 ### 4.1 Where Your Data is Stored
 
-- **On Your Device:** Health data is stored locally on your device using Apple's Core Data framework
-- **In the Cloud:** If you enable cloud sync (available in a future update), your data will be stored on Google Cloud Platform servers in the United States
+- **On Your Device:** The App is offline-first. Your data is stored locally on your device using Apple's Core Data framework so the App works without a network connection.
+- **In the Cloud:** Your tracking data (dose logs, reactions, notes, sickness-mode history) and account information are also stored on Google Cloud Platform servers in the United States, so your data can sync across your devices and with caregivers you authorize. This data is **encrypted in transit and at rest** (Section 4.2).
+- **Photos — device only:** Any child photo you add stays on the device that captured it and is **never** uploaded to our servers.
 
 ### 4.2 How We Protect Your Data
 
@@ -146,7 +147,7 @@ We implement industry-standard security measures:
 
 ### 4.3 Data Retention
 
-- **Active Accounts:** We retain your data as long as your account is active
+- **Active Accounts:** We retain your account and health data while your account is active. If your account becomes inactive — no sign-in and no data activity for **36 months** — we will notify you at your contact address and then delete the associated data unless you sign in to keep the account active
 - **After Deletion:** If you delete your account, we retain your data for 90 days (to allow recovery if you change your mind), then permanently delete it
 - **Derived Treatment-Progress Metrics:** The derived metrics described in Section 1.1 follow the same lifecycle as your dose logs. They are retained while your account is active. On account deletion, they are soft-deleted and permanently purged within the same 90-day window as the rest of your account data.
 - **Anonymous Product Telemetry:** Because telemetry events (Section 1.2) are tied to an anonymous per-install identifier rather than to your account, they are not removed by account deletion. We retain individual telemetry events only as long as needed for product analytics — in any case, no longer than 18 months — after which they are deleted or aggregated.
@@ -154,6 +155,17 @@ We implement industry-standard security measures:
 ### 4.4 Family-Share Revocation
 
 When you revoke a caregiver's or co-owner's access (Section 3.3), the change takes effect immediately on our servers. The removed person receives no advance warning and no notification — their next read or write to your child's records returns an authorization error and the records disappear from their device on the next sync. Revocation removes future access only; it cannot recall data the person already viewed on their device, exported, or shared elsewhere. The same behaviour applies when a caregiver or co-owner leaves a share you granted them; removing a co-owner also dissolves the co-ownership link so they revert to having no access. We retain the share record (status flipped to "revoked") for the standard 90-day account retention window so revocation is auditable for both parties; the underlying child data is unaffected by the revocation.
+
+### 4.5 Data Breach Notification
+
+We maintain administrative, technical, and physical safeguards designed to protect your information (Section 4.2). No system is perfectly secure, however. If we discover a breach of security involving your or your child's identifiable health information — including unauthorized access to, acquisition of, or disclosure of that information — we will:
+
+- Investigate promptly and take steps to contain and remediate the incident;
+- Notify affected users without undue delay, and in no case later than **60 calendar days** after we discover the breach;
+- Notify the U.S. Federal Trade Commission, and — where a breach affects 500 or more individuals — notify prominent media, as required by the **FTC Health Breach Notification Rule**;
+- Notify other authorities or take additional steps where required by applicable state or international law.
+
+Our notice will describe, to the extent known at the time, what happened, the types of information involved, the steps we are taking in response, and steps you can take to protect yourself. Because OIT Tracker is not a HIPAA-covered entity, breaches of health information in the App are governed by the FTC Health Breach Notification Rule and applicable state breach-notification laws rather than by HIPAA.
 
 ---
 
@@ -210,11 +222,11 @@ You can update or correct your data directly in the App.
 
 ### 6.3 Deletion
 
-You can delete your account and all associated data directly in the App: go to **Settings → Account** and tap **Delete Account** in the Danger Zone. You can also request deletion by contacting us at support@oittracker.com.
+You can delete your account and all associated data directly in the App: go to **Settings → Account** and tap **Delete Account** in the Danger Zone. Deleting your account removes your child profiles, dose and reaction logs, notes, sickness-mode history, and caregiver-share records, subject to the 90-day recovery window described in Section 4.3 (after which the data is permanently deleted). You may also request deletion by contacting us at support@oittracker.com.
 
-### 6.4 Opt-Out of Analytics
+### 6.4 Control Over Analytics
 
-The anonymous product-telemetry described in Section 1.2 is on by default. You can turn it off at any time in the App: go to **Settings → Privacy & Data** and switch off **Share Anonymous Analytics**. Turning it off stops the App from collecting any further telemetry and discards any events still queued on your device that have not yet been sent. (Telemetry already transmitted before you opted out is anonymous and is retained as described in Section 4.3.) If you need help, contact us at support@oittracker.com.
+The anonymous product-telemetry described in Section 1.2 is on by default, but it is optional and is **not** required to use the App. You can turn it off at any time in the App: go to **Settings → Privacy & Data** and switch off **Share Anonymous Analytics**. Turning it off stops the App from collecting any further telemetry and discards any events still queued on your device that have not yet been sent. (Telemetry already transmitted before you opted out is anonymous and is retained as described in Section 4.3.) If you need help, contact us at support@oittracker.com.
 
 ---
 
@@ -246,25 +258,30 @@ For privacy-specific inquiries, please include "Privacy" in the subject line.
 
 ---
 
-## 10. California Residents (CCPA)
+## 10. California Residents (CCPA/CPRA)
 
-If you are a California resident, you have additional rights under the California Consumer Privacy Act (CCPA):
+If you are a California resident, the California Consumer Privacy Act, as amended by the California Privacy Rights Act (CCPA/CPRA), gives you certain rights regarding your personal information. Some of these obligations apply only to businesses that meet the CCPA's size thresholds; we extend the following to you regardless, as a matter of good practice.
 
-- **Right to Know:** You can request information about the categories of personal information we collect
-- **Right to Delete:** You can request deletion of your personal information
-- **Right to Non-Discrimination:** We will not discriminate against you for exercising your privacy rights
+The personal information we collect is described in Section 1. It includes **"sensitive personal information"** under the CCPA — specifically your child's health information (dose logs, reactions, allergen and treatment details). We collect it only to provide and improve the App as described in Section 2.
 
-We do not sell personal information as defined by the CCPA.
+Your rights:
+
+- **Right to Know / Access:** Request the categories and specific pieces of personal information we have collected about you.
+- **Right to Delete:** Request deletion of your personal information. You can also delete your account and all associated data directly in the App (see Section 6.3).
+- **Right to Correct:** Request correction of inaccurate personal information. You can also edit your data directly in the App.
+- **Right to Limit Use of Sensitive Personal Information:** We use sensitive personal information only to provide the App and its core features — never to infer characteristics about you and never for advertising. That use already falls within the CCPA's permitted purposes, and we do not use or disclose it for any other purpose.
+- **Right to Opt Out of Sale or Sharing:** We do **not** sell or "share" (as the CCPA defines those terms) your personal information, so there is nothing to opt out of.
+- **Right to Non-Discrimination:** We will not discriminate against you for exercising any of these rights.
+
+To exercise these rights, contact us at support@oittracker.com. We will take reasonable steps to verify your request and respond within the timeframes required by law. You may use an authorized agent to submit a request on your behalf.
 
 ---
 
-## 11. European Users (GDPR)
+## 11. Users Outside the United States
 
-If you are located in the European Economic Area (EEA), you have additional rights under the General Data Protection Regulation (GDPR):
+OIT Tracker is intended for use in the United States. We do not target or market the App to users in the European Economic Area (EEA), the United Kingdom, or other regions, and our data practices are built around U.S. law. If you access the App from outside the United States, you do so on your own initiative, you are responsible for compliance with your local laws, and you consent to your information being processed and stored in the United States as described in this policy.
 
-- **Legal Basis:** We process your data based on your consent and our legitimate interest in providing the service
-- **Data Controller:** Jones Technical Enterprises, LLC is the data controller
-- **Right to Lodge a Complaint:** You have the right to lodge a complaint with a supervisory authority
+If we expand availability to the EEA or UK in the future, we will update this policy to address the General Data Protection Regulation (GDPR) and UK GDPR — including identifying a lawful basis for processing children's health data (explicit consent) and appointing a representative where required.
 
 ---
 
