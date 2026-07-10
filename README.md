@@ -13,6 +13,7 @@ oittracker.com/
 │   └── legal.html          # Custom layout for legal pages (matches homepage theme)
 ├── legal/
 │   ├── privacy-policy.md   # Privacy Policy (markdown, uses legal layout)
+│   ├── consumer-health-data-privacy-policy.md # Consumer Health Data Privacy Policy
 │   └── terms-of-service.md # Terms of Service (markdown, uses legal layout)
 ├── assets/
 │   └── images/             # App icon, screenshots
@@ -56,6 +57,7 @@ bundle exec jekyll serve  # Start local server at http://127.0.0.1:4000
 |-----|--------|
 | `/` | `index.html` |
 | `/legal/privacy-policy` | `legal/privacy-policy.md` |
+| `/legal/consumer-health-data-privacy-policy` | `legal/consumer-health-data-privacy-policy.md` |
 | `/legal/terms-of-service` | `legal/terms-of-service.md` |
 
 ## Deployment

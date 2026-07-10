@@ -16,7 +16,7 @@
 | Allergen / treatment info | On-device + Google Cloud (US) | Sensitive |
 | Apple Sign-In identifier; optional email | Google Cloud (US) | Identifier |
 | Device identifier (offline sync) | On-device + Google Cloud (US) | Low |
-| Anonymous product telemetry | Google Cloud (US) / [analytics backend] | De-identified |
+| Account-linkable product telemetry | Google Cloud (US) / analytics backend | Pseudonymous; currently stored with authenticated App device ID pending de-linking work |
 | Child photos | **On-device only — never uploaded** | Sensitive (contained on-device) |
 | Waitlist email | Kit (ConvertKit) | Identifier |
 
