@@ -22,10 +22,11 @@ When you use the App, you may provide us with:
 
 - **Child Profile Information:** Your child's first name (nickname acceptable), date of birth (optional), photo (optional, stored on your device only — never uploaded to our servers), allergen information, and treatment details
 - **Doctor/Clinic Contact Information (optional):** Your child's allergist or clinic contact details — doctor name, office and after-hours phone numbers, email, clinic name, and clinic address. You enter these so you can quickly call the office and view the clinic address from the Doctor tab.
-- **Health Data:** Dose logs (amount, date/time), reaction logs (symptoms, severity), sickness mode periods, and notes you add
+- **Health Data:** Dose logs (amount, date/time), reaction logs (symptoms, severity), sickness mode periods, notes you add, and **care instructions** — freeform standing-care text you write for a child's caregivers (for example, the dose ritual, what to watch for, or an emergency contact), which may contain phone numbers or medication guidance. Care instructions are stored on our servers and synced to your account's devices and to caregivers you share the child with.
 - **Derived Treatment-Progress Metrics:** The App computes and stores server-side a set of derived metrics from your already-collected dose logs: per-allergen dose multipliers, dose counts, consistency dates, treatment milestone events (such as "first dose" or "reached a dose threshold"), and the associated dates. These are derived quantities — the App calculates them from dose logs you have already provided; they are not a new data source. We store them server-side and sync them across your account's devices for backup, cross-device continuity, and in-app progress trends. The fields carried are identifiers (UUIDs), numbers, enums, and dates only — no names, no free text.
 - **Apple Sign-In Identifier:** When you sign in with Apple, we receive a stable Apple-issued user identifier ("Apple `sub`") that we use to associate your account across your devices. We do not receive your Apple ID password.
 - **Email Address (optional):** When you sign in with Apple, you may choose to share your email address (real or an Apple private-relay address). If shared, we use it only for account-related communication. Apple's Sign in with Apple is governed by [Apple's Privacy Policy](https://www.apple.com/legal/privacy/).
+- **Display Name (optional):** A name you set in the App's Settings, shown as the author byline on care instructions you write so other caregivers know who authored them. You can change or clear it at any time.
 - **Device Identifier:** A device-generated identifier used to coordinate offline sync between your devices and our servers. This identifier is created locally and is not derived from any hardware ID.
 
 ### 1.2 Information Collected Automatically
@@ -176,6 +177,7 @@ We collect only the minimum information necessary to provide the service:
 - Allergen and treatment information
 - Dose and reaction logs
 - Derived treatment-progress metrics computed from the above dose logs (see Section 1.1)
+- Care instructions you write for the child's caregivers (freeform text, which may include contact or medication details — see Section 1.1)
 
 We do **not** collect children's:
 
