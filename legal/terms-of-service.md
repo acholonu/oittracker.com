@@ -7,7 +7,7 @@ title: "Terms of Service"
 
 **Effective Date:** January 2, 2026
 
-**Last Updated:** July 10, 2026
+**Last Updated:** July 11, 2026
 
 Welcome to OIT Tracker. These Terms of Service ("Terms") govern your use of the OIT Tracker mobile application (the "App") operated by Jones Technical Enterprises, LLC ("we," "us," or "our").
 
@@ -55,6 +55,8 @@ An adult invited by the Primary Owner or Co-Owner may use the App as an **Author
 
 **Children under 13 may not use the App directly.** A child under 13 may not create an account, sign in, accept an invitation, operate the App, enter information, or use another person's credentials. A parent, legal guardian, or Authorized Caregiver may create and manage a profile and enter information about a child of any age, but must not permit a child under 13 to operate the App. Parent-authorized accounts for children under 13 are not currently offered.
 
+Before you can sign in or use the App directly, the App asks for your date of birth to determine your age-eligibility class. As described in our [Privacy Policy](/legal/privacy-policy), your date of birth is used only on your device and then discarded; we receive and store only the resulting class. Your access to the App is conditioned on the accuracy of this declaration.
+
 Primary Owners, Co-Owners, Authorized Caregivers, and Authorized Minors are collectively referred to as **Users** in these Terms.
 
 ### 2.2 Account Responsibility
@@ -98,6 +100,7 @@ You agree **not** to:
 
 - Create or manage a child's profile unless you are the child's parent or legal guardian or have been authorized by the parent or legal guardian through family sharing
 - Permit a child under 13 to sign in, accept an invitation, operate the App, enter information, or use your account or credentials
+- Misrepresent your age or age-eligibility class, or help another person misrepresent theirs
 - Knowingly enter fraudulent, false, or intentionally misleading information
 - Attempt to access other users' data
 - Reverse engineer, decompile, or attempt to extract the source code, except to the extent applicable law expressly permits that activity
