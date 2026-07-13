@@ -7,7 +7,7 @@ title: "Privacy Policy"
 
 **Effective Date:** January 2, 2026
 
-**Last Updated:** July 10, 2026
+**Last Updated:** July 12, 2026
 
 Jones Technical Enterprises, LLC ("we," "us," or "our") operates the OIT Tracker mobile application (the "App"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our App.
 
@@ -26,7 +26,7 @@ When you use the App, you may provide us with:
 - **Child Profile Information:** Your child's first name (nickname acceptable), date of birth (optional), photo (optional, stored on your device only — never uploaded to our servers), allergen information, and treatment details
 - **Doctor/Clinic Contact Information (optional):** Your child's allergist or clinic contact details — doctor name, office and after-hours phone numbers, email, clinic name, and clinic address. You enter these so you can quickly call the office and view the clinic address from the Doctor tab.
 - **Health Data:** Dose logs (amount, date/time), reaction logs (symptoms, severity), sickness mode periods, notes you add, and **care instructions** — freeform standing-care text you write for a child's caregivers (for example, the dose ritual, what to watch for, or an emergency contact), which may contain phone numbers or medication guidance. Care instructions are stored on our servers and synced to your account's devices and to caregivers you share the child with.
-- **Emergency Action Plans and Documents:** Action-plan page images you scan or import are stored on your device only. The App may perform OCR and an initial extraction on-device. If you choose the Family+ cloud-parsing feature, the OCR text—not the document images—is sent through our backend to Anthropic's Claude API for structured extraction. OCR text may contain a child's full name, date of birth, clinician contact information, allergens, medications, and treatment instructions. Our backend processes the OCR text and extraction response transiently and does not persist either one. Anthropic's standard API service may retain API inputs and outputs for up to 30 days, subject to its policy exceptions. After you review the extraction, the action-plan fields you choose to save are stored and synced like other health data. Automated extraction may be incomplete or inaccurate; always compare it with the original clinician-issued document.
+- **Emergency Action Plans and Documents:** Action-plan page images you scan or import are stored on your device. If you turn on and consent to the Family+ AI auto-fill feature, a page image—not just OCR text—is sent through our backend to Google Cloud's Vertex AI, which extracts structured fields using Google's Gemini model (or, if it is unavailable, Anthropic's Claude model made available through Vertex AI). The image and the extracted fields may contain a child's full name, date of birth, clinician contact information, allergens, medications, and treatment instructions. Our backend processes the image and the extraction response transiently and does not persist either one. Under Google Cloud's Vertex AI terms, your data is not used to train models and is not retained after the request is served, except for limited, security-related logging that applies only if automated abuse checks are triggered and that can be disabled at the account level. After you review the extraction, the action-plan fields you choose to save are stored and synced like other health data. Automated extraction may be incomplete or inaccurate; always compare it with the original clinician-issued document.
 - **Derived Treatment-Progress Metrics:** The App computes and stores server-side a set of derived metrics from your already-collected dose logs: per-allergen dose multipliers, dose counts, consistency dates, treatment milestone events (such as "first dose" or "reached a dose threshold"), and the associated dates. These are derived quantities — the App calculates them from dose logs you have already provided; they are not a new data source. We store them server-side and sync them across your account's devices for backup, cross-device continuity, and in-app progress trends. The fields carried are identifiers (UUIDs), numbers, enums, and dates only — no names, no free text.
 - **Apple Sign-In Identifier:** When you sign in with Apple, we receive a stable Apple-issued user identifier ("Apple `sub`") that we use to associate your account across your devices. We do not receive your Apple ID password.
 - **Age-Eligibility Class:** Before you can use the App directly, it asks for your date of birth to confirm you meet the age requirements in Section 5. **Your date of birth is used on your device only to compute an age class ("adult" or "authorized minor 13+") and is then discarded — it never leaves your device, and we never receive or store it.** We store only the resulting class on your account, together with the date the check was completed, and use it solely to determine and enforce age eligibility — never for analytics, personalization, or marketing. The class is retained for the life of your account and is deleted with it (Section 4.3). If the check determines the person is under 13, no account, identifier, or usage data is created at all.
@@ -59,7 +59,7 @@ We do **not** require the following as dedicated profile or account fields:
 - Financial or payment information (handled by Apple via App Store)
 - Precise geolocation data
 
-Free-text fields or action-plan OCR text may contain information you choose to provide, including a child's full legal name, date of birth, address, clinician information, medication instructions, or emergency contacts. Avoid including information that is not needed to use the App.
+Free-text fields, and the action-plan page images or the fields extracted from them, may contain information you choose to provide, including a child's full legal name, date of birth, address, clinician information, medication instructions, or emergency contacts. Avoid including information that is not needed to use the App.
 
 ---
 
@@ -68,7 +68,7 @@ Free-text fields or action-plan OCR text may contain information you choose to p
 We use the information we collect to:
 
 - **Provide the Service:** Store and display your dose logs, reactions, and treatment history
-- **Process Action Plans:** Store document page images on your device, perform on-device OCR and extraction, and—if you choose cloud parsing—transmit OCR text for structured extraction so you can review and organize an action plan. We do not use automated extraction to make treatment or dosing decisions.
+- **Process Action Plans:** Store document page images on your device and—if you turn on AI auto-fill—transmit a page image to Google Cloud's Vertex AI for one-time structured extraction so you can review and organize an action plan. We do not use automated extraction to make treatment or dosing decisions.
 - **Sync Across Devices:** Synchronize your dose logs, reactions, notes, sickness-mode history, saved action-plan information, and account information across your devices and with caregivers you have authorized (Section 3.3)
 - **Improve the App:** Analyze product-telemetry events (Section 1.2) to understand how features are used, find bugs, and prioritize improvements. We do not use telemetry for advertising or to make treatment decisions.
 - **Configure Features Remotely:** Use the feature-configuration request (Section 1.2) to gradually roll out new features, disable a feature that is misbehaving, or enable a feature for a specific App version without requiring you to update the App.
@@ -95,8 +95,8 @@ We share limited information with trusted service providers who help us operate 
 
 | Provider | Purpose | Data Shared |
 |----------|---------|-------------|
-| Google Cloud Platform | Backend hosting | Encrypted health data, account information, product telemetry, and transient action-plan OCR requests and responses |
-| Anthropic (Claude API) | Optional Family+ cloud action-plan parsing | Action-plan OCR text and the structured extraction response; no document images |
+| Google Cloud Platform | Backend hosting | Encrypted health data, account information, product telemetry, and transient action-plan parsing requests and responses |
+| Google Cloud — Vertex AI | Optional Family+ AI action-plan auto-fill | The action-plan page image and the structured extraction response, processed transiently and not retained; extraction uses Google's Gemini model, with Anthropic's Claude model available through Vertex AI as a fallback |
 | Apple (Sign in with Apple) | Account authentication and identity | Apple-issued user identifier; email address only if you choose to share it |
 | Apple (App Store) | Payment processing, subscription management | Purchase and subscription status (no financial details shared with us) |
 | Kit (ConvertKit) | Waitlist email collection | Email address only |
@@ -106,7 +106,7 @@ As we integrate additional service providers (such as analytics or push notifica
 
 We require service providers to protect your data and process it for the services they provide to us, subject to their independent legal, security, and abuse-prevention obligations.
 
-Under [Anthropic's published API retention policy](https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data), standard API inputs and outputs are deleted from its backend within 30 days, except where a different retention arrangement applies or retention is needed for usage-policy enforcement or legal compliance.
+Under Google Cloud's Vertex AI data-governance terms, prompts and responses are not used to train or fine-tune models and are not retained after the request is served, other than limited, security-related logging that applies only if automated abuse checks are triggered and that can be disabled at the account level.
 
 ### 3.3 Family Sharing
 
@@ -114,9 +114,9 @@ The App lets you invite adult family members, other adult caregivers, or an Auth
 
 **How invitations work.** From the in-App Account screen, you choose the recipient's email address, the children to share, and a **role** — **View** (read-only), **Edit** (read and write), or **Co-Owner** (a second full owner of the family; see "Co-owners" below). The App generates a 16-character invite code valid for 7 days and emails it to the address you entered (delivered via Amazon Web Services SES — see Section 3.2). The invitation email contains only the invite code and instructions to accept it — never your name, your child's name, or any health information. The code is also shown to you in the App so you can share it yourself through any channel (email, message, or in person) — for example, if the email doesn't arrive. No data is shared with the recipient until they accept the invitation.
 
-**What data flows.** Once an invited User accepts an invitation on their device, they see the same dose history, reactions, notes, sickness-mode periods, saved action-plan information, and treatment information you see for the children you shared — unless you have limited a View-only User's visibility (see "Visibility controls" below). Photos and action-plan document page images remain on the device that captured or imported them and are never shared. The User's role is checked on every read and every write — a View-only User cannot log doses, edit treatments, or modify any record.
+**What data flows.** Once an invited User accepts an invitation on their device, they see the same dose history, reactions, notes, sickness-mode periods, saved action-plan information, and treatment information you see for the children you shared — unless you have limited a View-only User's visibility (see "Visibility controls" below). Photos and action-plan document page images are never shared with caregivers; an action-plan image leaves your device only if you turn on AI auto-fill, and then only transiently to our AI provider for extraction (Sections 1.1 and 3.2), never to caregivers. The User's role is checked on every read and every write — a View-only User cannot log doses, edit treatments, or modify any record.
 
-**Visibility controls for View-only caregivers.** For a **View** (read-only) caregiver — a babysitter or school nurse, say — you can additionally choose *which* record types they can see: **notes**, **dose history**, **reactions**, and the **updose schedule** are each independently hideable, per share. You choose at invite time and can change your choice later from the same Account screen. Safety information is never hideable: an accepted caregiver always sees the child's saved emergency action-plan information, doctor/clinic contact, current sickness status, and treated allergens — a caregiver who can't see what the child is allergic to can't keep them safe. Action-plan document page images remain device-only and are not shared. These limits are enforced by our servers on every read (hidden records are also excluded from the caregiver's device sync), not merely hidden in the caregiver's app. If the same caregiver holds more than one share covering a child, they can see everything at least one of those shares allows. Edit caregivers and co-owners always see everything — hiding records from someone who can edit them would be incoherent.
+**Visibility controls for View-only caregivers.** For a **View** (read-only) caregiver — a babysitter or school nurse, say — you can additionally choose *which* record types they can see: **notes**, **dose history**, **reactions**, and the **updose schedule** are each independently hideable, per share. You choose at invite time and can change your choice later from the same Account screen. Safety information is never hideable: an accepted caregiver always sees the child's saved emergency action-plan information, doctor/clinic contact, current sickness status, and treated allergens — a caregiver who can't see what the child is allergic to can't keep them safe. Action-plan document page images are not shared with caregivers (if you turn on AI auto-fill, an image is sent transiently to our AI provider for extraction only, never to caregivers). These limits are enforced by our servers on every read (hidden records are also excluded from the caregiver's device sync), not merely hidden in the caregiver's app. If the same caregiver holds more than one share covering a child, they can see everything at least one of those shares allows. Edit caregivers and co-owners always see everything — hiding records from someone who can edit them would be incoherent.
 
 **Co-owners (a second full owner).** Unlike a View or Edit caregiver, a co-owner is a *second full owner* of your family's records. A co-owner can see and manage **every child in your family — existing children and any you add later — with the same access you have**, including editing and deleting records. A family can have **at most two adult owners** (you plus one co-owner). Only you (the family's creator) can invite a co-owner, and doing so does not use up a caregiver slot. A co-owner can choose to leave the family at any time, which removes their own access. Inviting a second full owner of your child's record is a meaningful sharing decision — we treat it the same way we treat any caregiver invitation: opt-in, never automatic, and revocable.
 
@@ -144,7 +144,7 @@ We may disclose your information if required by law, such as in response to a co
 
 - **On Your Device:** The App is offline-first. Your data is stored locally on your device using Apple's Core Data framework so the App works without a network connection.
 - **In the Cloud:** Your tracking data (dose logs, reactions, notes, sickness-mode history), action-plan information you review and save, and account information are also stored on Google Cloud Platform servers in the United States, so your data can sync across your devices and with caregivers you authorize. This data is **encrypted in transit and at rest** (Section 4.2).
-- **Photos and action-plan page images — device only:** Any child photo or action-plan document page image you add stays on the device that captured or imported it and is **never** uploaded to our servers. If you choose cloud parsing, only OCR text extracted from the page images is transmitted as described in Sections 1.1 and 3.2.
+- **Photos device-only; action-plan images device-only unless you use AI auto-fill:** Any child photo you add stays on the device that captured or imported it and is **never** uploaded to our servers. Action-plan document page images are also stored on your device; if you turn on and consent to AI auto-fill, a page image is transmitted transiently to Google Cloud's Vertex AI for extraction and is not retained, as described in Sections 1.1 and 3.2. We do not store the image on our servers.
 
 ### 4.2 How We Protect Your Data
 
@@ -161,7 +161,7 @@ We implement industry-standard security measures:
 - **After Deletion:** If you delete your account, we retain your data for 90 days (to allow recovery if you change your mind), then permanently delete it
 - **Derived Treatment-Progress Metrics:** The derived metrics described in Section 1.1 follow the same lifecycle as your dose logs. They are retained while your account is active. On account deletion, they are soft-deleted and permanently purged within the same 90-day window as the rest of your account data.
 - **Product Telemetry:** Telemetry events are currently stored with an authenticated App device identifier as described in Section 1.2. The in-App account-deletion flow does not currently remove already-transmitted telemetry. You may request deletion of linkable telemetry by contacting support@oittracker.com before deleting the account so we can authenticate the request and identify the applicable device records. We retain individual telemetry events no longer than 18 months, after which they are deleted or aggregated.
-- **Cloud Action-Plan Parsing:** Our backend does not persist OCR text or the extraction response. Anthropic retains standard API inputs and outputs as described in Section 3.2.
+- **Cloud Action-Plan Parsing:** Our backend does not persist the submitted image or the extraction response. Google Cloud's Vertex AI does not train on your data and does not retain it after the request is served, as described in Section 3.2.
 
 ### 4.4 Family-Share Revocation
 
@@ -196,12 +196,12 @@ The App is designed for **parents and guardians** to track their child's oral im
 
 Depending on the features used and the information supplied by a parent, guardian, authorized caregiver, or Authorized Minor age 13 or older, this information may include:
 
-- First name or nickname as a profile field; a full legal name may appear in action-plan OCR text or free text
+- First name or nickname as a profile field; a full legal name may appear in action-plan page images or free text
 - Date of birth (optional)
 - Photo (optional, stored on your device only — never uploaded to our servers)
 - Allergen and treatment information
 - Dose and reaction logs
-- Emergency action-plan page images stored on-device, OCR text, and information extracted from those documents
+- Emergency action-plan page images (stored on-device, and transmitted transiently to Vertex AI only if you turn on AI auto-fill) and information extracted from those documents
 - Derived treatment-progress metrics computed from the above dose logs (see Section 1.1)
 - Care instructions you write for the child's caregivers (freeform text, which may include contact or medication details — see Section 1.1)
 
@@ -231,7 +231,7 @@ You can update or correct your data directly in the App.
 
 ### 6.3 Deletion
 
-You can delete your account and account-linked data directly in the App: go to **Settings → Account** and tap **Delete Account** in the Danger Zone. Deleting your account removes your child profiles, dose and reaction logs, notes, sickness-mode history, action-plan documents and extracted information, and caregiver-share records, subject to the 90-day recovery window described in Section 4.3 (after which the data is permanently deleted). Product telemetry and cloud-parsing data follow the separate retention rules in Section 4.3. You may also request deletion by contacting us at support@oittracker.com.
+You can delete your account and account-linked data directly in the App: go to **Settings → Account** and tap **Delete Account** in the Danger Zone. Deleting your account removes your child profiles, dose and reaction logs, notes, sickness-mode history, action-plan documents and extracted information, and caregiver-share records, subject to the 90-day recovery window described in Section 4.3 (after which the data is permanently deleted). Product telemetry and any transient AI auto-fill data follow the separate retention rules in Section 4.3. You may also request deletion by contacting us at support@oittracker.com.
 
 ### 6.4 Control Over Analytics
 
