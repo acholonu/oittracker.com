@@ -7,7 +7,7 @@ title: "Privacy Policy"
 
 **Effective Date:** January 2, 2026
 
-**Last Updated:** July 12, 2026
+**Last Updated:** July 13, 2026
 
 Jones Technical Enterprises, LLC ("we," "us," or "our") operates the OIT Tracker mobile application (the "App"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our App.
 
@@ -118,13 +118,14 @@ The App lets you invite adult family members, other adult caregivers, or an Auth
 
 **Visibility controls for View-only caregivers.** For a **View** (read-only) caregiver — a babysitter or school nurse, say — you can additionally choose *which* record types they can see: **notes**, **dose history**, **reactions**, and the **updose schedule** are each independently hideable, per share. You choose at invite time and can change your choice later from the same Account screen. Safety information is never hideable: an accepted caregiver always sees the child's saved emergency action-plan information, doctor/clinic contact, current sickness status, and treated allergens — a caregiver who can't see what the child is allergic to can't keep them safe. Action-plan document page images are not shared with caregivers (if you turn on AI auto-fill, an image is sent transiently to our AI provider for extraction only, never to caregivers). These limits are enforced by our servers on every read (hidden records are also excluded from the caregiver's device sync), not merely hidden in the caregiver's app. If the same caregiver holds more than one share covering a child, they can see everything at least one of those shares allows. Edit caregivers and co-owners always see everything — hiding records from someone who can edit them would be incoherent.
 
-**Co-owners (a second full owner).** Unlike a View or Edit caregiver, a co-owner is a *second full owner* of your family's records. A co-owner can see and manage **every child in your family — existing children and any you add later — with the same access you have**, including editing and deleting records. A family can have **at most two adult owners** (you plus one co-owner). Only you (the family's creator) can invite a co-owner, and doing so does not use up a caregiver slot. A co-owner can choose to leave the family at any time, which removes their own access. Inviting a second full owner of your child's record is a meaningful sharing decision — we treat it the same way we treat any caregiver invitation: opt-in, never automatic, and revocable.
+**Co-owners (a second full owner).** Unlike a View or Edit caregiver, a co-owner is a *second full owner* of your family's records. A co-owner can see and manage **every child in your family — existing children and any you add later** — including editing care records and core child details. Only the primary owner can delete a child profile; a co-owner cannot remove a child from the family. A family can have **at most two adult owners** (you plus one co-owner). Only you (the family's creator) can invite a co-owner, and doing so does not use up a caregiver slot. A co-owner can choose to leave the family at any time, which removes their own access. Inviting a second full owner of your child's record is a meaningful sharing decision — we treat it the same way we treat any caregiver invitation: opt-in, never automatic, and revocable.
 
 **Owner controls.** You are the family's creator (the "primary owner"). From the same Account screen you can:
 
 - See every caregiver and co-owner you have invited, and every share you have accepted from someone else
 - Choose — and later change — which record types a View-only caregiver can see (the "Visibility controls" above)
 - Revoke any caregiver's or co-owner's access at any time. **Revocation is immediate and silent** — the removed person loses access on their next request to our servers and receives no advance warning. Revocation removes future access; it cannot recall data the person already viewed, downloaded, or printed.
+- Delete a child profile when your family has more than one child. This destructive action is reserved for the primary owner; co-owners and caregivers cannot remove a child from the family.
 - Leave any share that someone else granted to you (the "leave" action is functionally the same as the owner revoking).
 - **Transfer ownership** of your family to your co-owner. After a transfer, the co-owner becomes the primary owner and you become the co-owner; the children's records move with the transfer. Transfer is explicit and can only be started by the current primary owner.
 
