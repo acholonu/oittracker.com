@@ -37,7 +37,7 @@ The App does not:
 - Replace communication with your healthcare team
 - Guarantee any health outcomes
 
-If you use cloud action-plan parsing, the App may automatically extract text or structured information from a document you scan or import. Document page images remain on your device; OCR text is sent to our backend and Anthropic's Claude API as described in the Privacy Policy. Automated extraction may be incomplete, inaccurate, or out of date. **Always compare extracted information with the original action plan and confirm it with your child's healthcare provider.** The original clinician-issued action plan—not an extraction, summary, reminder, or display in the App—controls.
+If you use cloud action-plan parsing, the App may automatically extract structured information from a document you scan or import. Your document page images are stored on your device; if you turn on and consent to this feature, a page image is also transmitted transiently through our backend to a third-party AI processing provider that extracts the fields on our behalf. The provider does not retain the image or use it to train its models, and you review the extracted fields before anything is saved, as described in the Privacy Policy. Automated extraction may be incomplete, inaccurate, or out of date. **Always compare extracted information with the original action plan and confirm it with your child's healthcare provider.** The original clinician-issued action plan—not an extraction, summary, reminder, or display in the App—controls.
 
 ### 1.4 Emergency Situations
 
@@ -169,7 +169,7 @@ If you cancel or the trial ends without an active subscription, the App reverts 
 The Family tier and the Family+ tier share the same **core tracking** feature set — dose logging, sickness mode, calendar history, reactions, family sharing, offline use, and cloud sync are available on **both** tiers. The Family+ tier is intended for households that need more than 1 child, additional dose-logging caregivers, or a larger viewer network, and additionally includes the following, which are **Family+ only**:
 
 - **A larger caregiver network:** Up to 3 children, up to 2 edit-permission caregivers (beyond the free owner + co-owner), and up to 5 viewers
-- **Cloud action-plan parsing, when available and enabled:** Automated extraction of your child's allergist action plan by sending OCR text—not document images—to our backend and Anthropic's Claude API, as described in the Privacy Policy
+- **Cloud action-plan parsing, when available and enabled:** Automated extraction of your child's allergist action plan by transmitting a page image transiently to a third-party AI processing provider that extracts the fields on our behalf and does not retain or train on it, as described in the Privacy Policy
 
 **Support is the same on both tiers.** We aim to answer every User's support email as quickly as we can, regardless of tier; we do not offer or charge for a faster response time.
 
