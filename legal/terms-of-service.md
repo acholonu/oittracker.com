@@ -7,7 +7,7 @@ title: "Terms of Service"
 
 **Effective Date:** January 2, 2026
 
-**Last Updated:** July 13, 2026
+**Last Updated:** July 16, 2026
 
 Welcome to OIT Tracker. These Terms of Service ("Terms") govern your use of the OIT Tracker mobile application (the "App") operated by Jones Technical Enterprises, LLC ("we," "us," or "our").
 
