@@ -136,13 +136,13 @@ While we strive to maintain reliable service, we do not guarantee that:
 
 ### 5.1 Subscription Tiers
 
-The App is a subscription-only service. There is no one-time purchase. Both tiers include the App's core tracking features (dose logging, sickness mode, calendar history, reactions, family sharing, offline use, and cloud sync); the Family+ tier adds convenience features and perks, as described in Section 5.4.
+The App is a subscription-only service. There is no one-time purchase. Both tiers include the App's core tracking features (dose logging, sickness mode, calendar history, reactions, family sharing, offline use, and cloud sync); the Family+ tier adds a larger caregiver network and convenience features, as described in Section 5.4.
 
 | Tier | Price | Children | Editors / Viewers | Additional Features |
 |------|-------|----------|-------------------|---------------------|
 | Family (Monthly) | $12.99 / month | Up to 1 | Editors (can log doses): you + an optional co-owner (free); Viewers (read-only): up to 1 | Core tracking features, family sharing, cloud sync |
 | Family (Yearly) | $89.99 / year | Up to 1 | Editors (can log doses): you + an optional co-owner (free); Viewers (read-only): up to 1 | Same as monthly |
-| Family+ (Monthly) | $19.99 / month | Up to 3 | Editors (can log doses): you + an optional co-owner (free) + up to 2 caregivers; Viewers (read-only): up to 5 | Family features + a larger caregiver network + cloud action-plan parsing when available + priority support |
+| Family+ (Monthly) | $19.99 / month | Up to 3 | Editors (can log doses): you + an optional co-owner (free) + up to 2 caregivers; Viewers (read-only): up to 5 | Family features + a larger caregiver network + cloud action-plan parsing when available |
 | Family+ (Yearly) | $149.99 / year | Up to 3 | Editors (can log doses): you + an optional co-owner (free) + up to 2 caregivers; Viewers (read-only): up to 5 | Same as Family+ monthly |
 
 An **Editor** is a User who can log doses and write to your child's records. The Primary Owner and an optional Co-Owner are Editors on every tier; beyond them you may add Authorized Caregivers or Authorized Minors age 13 or older as Editors, up to your tier's cap (0 on Family, up to 2 on Family+). A **Viewer** is a User with read-only access (for example, a grandparent or school nurse who only needs to see the records); Viewers are **capped at 1 on Family and 5 on Family+**. An Authorized Minor age 13 or older may hold an Editor or Viewer role; this does not reduce the child limit.
@@ -170,7 +170,8 @@ The Family tier and the Family+ tier share the same **core tracking** feature se
 
 - **A larger caregiver network:** Up to 3 children, up to 2 edit-permission caregivers (beyond the free owner + co-owner), and up to 5 viewers
 - **Cloud action-plan parsing, when available and enabled:** Automated extraction of your child's allergist action plan by sending OCR text—not document images—to our backend and Anthropic's Claude API, as described in the Privacy Policy
-- **Priority support:** Faster response time for support inquiries
+
+**Support is the same on both tiers.** We aim to answer every User's support email as quickly as we can, regardless of tier; we do not offer or charge for a faster response time.
 
 ### 5.5 Subscription Lapse and Read-Only State
 
