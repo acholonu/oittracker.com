@@ -76,8 +76,9 @@ Family sharing is available to all subscribers (see Section 5). Users you invite
 - You represent that you have authority to share the child's records with that person and to provide the recipient's contact information for the invitation
 - You will not invite or provide App access to a child under 13
 - You control their access and can revoke it at any time, and revocation takes effect immediately
-- As the family's creator you are the primary owner. You may invite **one** other adult as a **co-owner** — a second owner who can view and edit the family's records but cannot delete a child profile — and you may **transfer** primary ownership to that co-owner. A family has at most two adult owners. A co-owner is a free Editor and does not count against your tier's caregiver-Editor cap
-- If you delete your account without first transferring ownership, your family's records follow the standard account-deletion process; a co-owner does not automatically inherit them
+- As the family's creator you are the primary owner. You may invite **one** other adult as a **co-owner** — a second owner who can view and edit the family's records but cannot delete a child profile. A family has at most two adult owners. A co-owner is a free Editor and does not count against your tier's caregiver-Editor cap
+- The ability to **transfer** primary ownership to your co-owner is planned for a future update and is not available in the current version of the App; this provision will apply once the feature ships
+- If you delete your account, your family's records follow the standard account-deletion process; a co-owner does not automatically inherit them. (Once ownership transfer becomes available, this applies whenever you delete without first transferring ownership)
 - Shared access is subject to your active subscription tier's child limit, Editor cap, and Viewer cap; see Section 5.1
 - Each invited User authenticates with their own Apple ID using Sign in with Apple; you do not share your Apple ID, password, or authentication tokens with them
 - Revocation prevents future access but cannot recall information the person already viewed, exported, printed, photographed, or otherwise retained

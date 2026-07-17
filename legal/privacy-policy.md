@@ -7,7 +7,7 @@ title: "Privacy Policy"
 
 **Effective Date:** January 2, 2026
 
-**Last Updated:** July 15, 2026
+**Last Updated:** July 16, 2026
 
 Jones Technical Enterprises, LLC ("we," "us," or "our") operates the OIT Tracker mobile application (the "App"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our App.
 
@@ -127,9 +127,9 @@ The App lets you invite adult family members, other adult caregivers, or an Auth
 - Revoke any caregiver's or co-owner's access at any time. **Revocation is immediate and silent** — the removed person loses access on their next request to our servers and receives no advance warning. Revocation removes future access; it cannot recall data the person already viewed, downloaded, or printed.
 - Delete a child profile when your family has more than one child. This destructive action is reserved for the primary owner; co-owners and caregivers cannot remove a child from the family.
 - Leave any share that someone else granted to you (the "leave" action is functionally the same as the owner revoking).
-- **Transfer ownership** of your family to your co-owner. After a transfer, the co-owner becomes the primary owner and you become the co-owner; the children's records move with the transfer. Transfer is explicit and can only be started by the current primary owner.
+- **Transfer ownership** of your family to your co-owner (available in a future update — not yet offered in the current version of the App). After a transfer, the co-owner becomes the primary owner and you become the co-owner; the children's records move with the transfer. Transfer is explicit and can only be started by the current primary owner.
 
-**No automatic inheritance.** If you delete your account without first transferring ownership, your family's records follow the normal account-deletion path in Section 4.3 (90-day retention, then permanent deletion). A co-owner does **not** automatically inherit your children's records — ownership only ever moves through the explicit transfer above.
+**No automatic inheritance.** If you delete your account, your family's records follow the normal account-deletion path in Section 4.3 (90-day retention, then permanent deletion). A co-owner does **not** automatically inherit your children's records — ownership could only ever move through the explicit transfer above, once that feature becomes available.
 
 **What we share with whom.** Caregiver and co-owner invitations are stored on our servers along with the email address you provided, the invite code, the chosen role, and timestamps for creation, acceptance, and revocation. To deliver the invitation email, the recipient's email address and the invite code pass through Amazon Web Services SES (our transactional email provider — see Section 3.2); no health data, child names, or other personal details are included in that email. Beyond that delivery step, we do not share data with any third party as part of family sharing. The accepting person authenticates via Sign in with Apple just like the inviting parent; the same data-protection commitments in this policy apply to every person with access.
 
