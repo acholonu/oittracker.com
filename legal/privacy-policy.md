@@ -11,7 +11,7 @@ title: "Privacy Policy"
 
 Jones Technical Enterprises, LLC ("we," "us," or "our") operates the OIT Tracker mobile application (the "App"). This Privacy Policy explains what information we collect, why we use it, when we disclose it, how long we keep it, and the choices available to you.
 
-For disclosures and rights specifically concerning consumer health data, see our separate [Consumer Health Data Privacy Policy](/legal/consumer-health-data-privacy-policy).
+For disclosures and rights specifically concerning consumer health data, see our separate [Consumer Health Data Privacy Policy](https://oittracker.com/legal/consumer-health-data-privacy-policy).
 
 ---
 
@@ -141,7 +141,7 @@ You can:
 - Stop future product telemetry through **Settings → Privacy & Data** by switching off **Share Anonymous Analytics**; this also discards unsent events still queued on the device
 - Request access, portability, correction, or deletion by emailing **support@oittracker.com**
 
-Despite the current analytics-setting label, transmitted telemetry may be linkable as described in Sections 1.2 and 5. For consumer-health-data rights and request procedures, see our [Consumer Health Data Privacy Policy](/legal/consumer-health-data-privacy-policy).
+Despite the current analytics-setting label, transmitted telemetry may be linkable as described in Sections 1.2 and 5. For consumer-health-data rights and request procedures, see our [Consumer Health Data Privacy Policy](https://oittracker.com/legal/consumer-health-data-privacy-policy).
 
 We may take reasonable steps to verify your identity and authority before completing a request. We will not unlawfully discriminate against you for exercising a privacy right.
 

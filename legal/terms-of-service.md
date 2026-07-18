@@ -7,347 +7,226 @@ title: "Terms of Service"
 
 **Effective Date:** January 2, 2026
 
-**Last Updated:** July 16, 2026
+**Last Updated:** July 18, 2026
 
-Welcome to OIT Tracker. These Terms of Service ("Terms") govern your use of the OIT Tracker mobile application (the "App") operated by Jones Technical Enterprises, LLC ("we," "us," or "our").
+These Terms of Service ("Terms") are an agreement between you and Jones Technical Enterprises, LLC ("OIT Tracker," "we," "us," or "our"). They govern your use of the OIT Tracker mobile application and related services (collectively, the "Service").
 
-**Please read these Terms carefully before using the App.** By downloading, installing, or using the App, you agree to be bound by these Terms. If you do not agree, do not use the App.
-
----
-
-## 1. IMPORTANT MEDICAL DISCLAIMER
-
-### 1.1 Not Medical Advice
-
-**THE APP IS A TRACKING TOOL ONLY.** The App is designed to help you log and track oral immunotherapy (OIT) doses, reactions, and related information. It is **not** a substitute for professional medical advice, diagnosis, or treatment.
-
-### 1.2 Always Consult Your Doctor
-
-- **Always** follow the instructions of your child's allergist or healthcare provider
-- **Never** change doses, skip doses, or modify treatment based solely on information in the App
-- **Always** seek immediate medical attention if your child experiences a severe allergic reaction
-- The App's "sickness mode" is a **tracking feature only.** It lets you record periods of illness and log doses during those periods. It does **not** tell you whether, when, why, or how to adjust dosing during illness, and it provides no medical guidance of any kind — those decisions are entirely yours, in consultation with your child's allergist or healthcare provider
-
-### 1.3 No Medical Recommendations
-
-The App does not:
-
-- Provide medical diagnoses
-- Recommend specific doses or treatments
-- Replace communication with your healthcare team
-- Guarantee any health outcomes
-
-If you use cloud action-plan parsing, the App may automatically extract structured information from a document you scan or import. Your document page images are stored on your device; if you turn on and consent to this feature, a page image is also transmitted transiently through our backend to a third-party AI processing provider that extracts the fields on our behalf. The provider does not retain the image or use it to train its models, and you review the extracted fields before anything is saved, as described in the Privacy Policy. Automated extraction may be incomplete, inaccurate, or out of date. **Always compare extracted information with the original action plan and confirm it with your child's healthcare provider.** The original clinician-issued action plan—not an extraction, summary, reminder, or display in the App—controls.
-
-### 1.4 Emergency Situations
-
-**In case of a severe allergic reaction (anaphylaxis), call 911 or your local emergency number immediately.** Do not rely on the App in an emergency.
+By signing in, creating or using an account, accepting an invitation, starting a subscription, or otherwise using the Service, you agree to these Terms. If you do not agree, do not use the Service. If you accept these Terms for a minor or another person, you represent that you have legal authority to do so.
 
 ---
 
-## 2. Eligibility and Account Terms
+## 1. Medical and Safety Disclaimer
 
-### 2.1 Age Requirements
+### 1.1 Tracking Tool Only
 
-The person who creates a family account (the **Primary Owner**) and any **Co-Owner** must be at least 18 years old or the age of majority where they live. A Primary Owner must be the child's parent or legal guardian, or otherwise have legal authority to create and manage the child's records.
+**OIT Tracker is an information-organizing and tracking tool only.** The Service is not a healthcare provider and does not provide medical advice, diagnosis, treatment, monitoring, clinical decision support, or emergency services. It is not a substitute for professional judgment or communication with a qualified healthcare provider.
 
-An adult invited by the Primary Owner or Co-Owner may use the App as an **Authorized Caregiver**. A person who is at least 13 but under the age of majority where they live may use the App as an **Authorized Minor** only through access initiated by their parent or legal guardian from the adult's authenticated account. The parent or legal guardian must review these Terms and the Privacy Policy and agree to these Terms on the Authorized Minor's behalf.
+### 1.2 Do Not Rely on the Service for Care Decisions
 
-**Children under 13 may not use the App directly.** A child under 13 may not create an account, sign in, accept an invitation, operate the App, enter information, or use another person's credentials. A parent, legal guardian, or Authorized Caregiver may create and manage a profile and enter information about a child of any age, but must not permit a child under 13 to operate the App. Parent-authorized accounts for children under 13 are not currently offered.
+Always follow the instructions of the treating allergist or other qualified healthcare provider. Do not use the Service to decide whether, when, or how to administer, change, delay, skip, or stop a dose or treatment. Sickness mode records information; it does not provide dosing or illness guidance.
 
-Before you can sign in or use the App directly, the App asks for your date of birth to determine your age-eligibility class. As described in our [Privacy Policy](/legal/privacy-policy), your date of birth is used only on your device and then discarded; we receive and store only the resulting class. Your access to the App is conditioned on the accuracy of this declaration.
+Information in the Service—including user-entered records, automated extractions, calculations, summaries, reminders, notifications, and displays—may be incomplete, inaccurate, delayed, or unavailable. Verify information against the original clinician-issued instructions and confirm questions with the treating healthcare provider. Keep an independent copy of any record needed for treatment or an emergency.
 
-Primary Owners, Co-Owners, Authorized Caregivers, and Authorized Minors are collectively referred to as **Users** in these Terms.
+### 1.3 Emergencies
 
-### 2.2 Account Responsibility
+**For a severe allergic reaction or other emergency, call 911 or the appropriate local emergency number immediately. Do not wait for or rely on the Service.**
 
-You are responsible for:
+---
 
-- Maintaining the confidentiality of your account credentials
-- All activities that occur under your account
-- Ensuring that any information you provide is accurate and up-to-date
-- Promptly notifying us at support@oittracker.com if you believe your account or a caregiver invitation has been compromised
+## 2. Eligibility, Accounts, and Sharing
 
-### 2.3 Family Sharing
+### 2.1 Eligibility
 
-Family sharing is available to all subscribers (see Section 5). Users you invite hold one of two access levels: **Editors**, who can log doses and write to your child's records, and **Viewers**, who have read-only access. The Primary Owner and an optional Co-Owner are Editors on every tier; beyond them, the number of Authorized Caregivers or Authorized Minors you may add as Editors depends on your active subscription tier. **The number of Viewers you may add also depends on your subscription tier** (up to 1 on Family, up to 5 on Family+); see Section 5.1. If you invite another person to share access to your child's data:
+The Service is intended for use in the United States. We do not represent that it is appropriate or available elsewhere.
 
-- The invited person agrees to these Terms by accepting the invitation or using the App; for an Authorized Minor, the parent or legal guardian must also review and agree to these Terms on the child's behalf
-- You represent that you have authority to share the child's records with that person and to provide the recipient's contact information for the invitation
-- You will not invite or provide App access to a child under 13
-- You control their access and can revoke it at any time, and revocation takes effect immediately
-- As the family's creator you are the primary owner. You may invite **one** other adult as a **co-owner** — a second owner who can view and edit the family's records but cannot delete a child profile. A family has at most two adult owners. A co-owner is a free Editor and does not count against your tier's caregiver-Editor cap
-- The ability to **transfer** primary ownership to your co-owner is planned for a future update and is not available in the current version of the App; this provision will apply once the feature ships
-- If you delete your account, your family's records follow the standard account-deletion process; a co-owner does not automatically inherit them. (Once ownership transfer becomes available, this applies whenever you delete without first transferring ownership)
-- Shared access is subject to your active subscription tier's child limit, Editor cap, and Viewer cap; see Section 5.1
-- Each invited User authenticates with their own Apple ID using Sign in with Apple; you do not share your Apple ID, password, or authentication tokens with them
-- Revocation prevents future access but cannot recall information the person already viewed, exported, printed, photographed, or otherwise retained
+A person who creates or co-owns a family account must be at least 18 years old and must have legal authority to manage the relevant records. An adult may use access granted by an authorized account owner. A person who is 13 through 17 years old may use the Service only through access initiated by their parent or legal guardian, who must agree to these Terms on the minor's behalf.
+
+**Children under 13 may not use the Service directly.** An authorized adult may maintain information about a child of any age but must not allow a child under 13 to sign in, accept an invitation, enter information, or use another person's credentials.
+
+You must provide accurate eligibility and account information and must not misrepresent or help another person misrepresent their age, authority, or eligibility.
+
+### 2.2 Account Security
+
+You are responsible for safeguarding your credentials, using only your own account, and taking reasonable steps to prevent unauthorized access. Do not share authentication credentials. Promptly notify us at **support@oittracker.com** if you believe an account or invitation has been compromised.
+
+### 2.3 Shared Access
+
+If you invite or authorize another person to access records, you represent that:
+
+- You have authority to share the records and provide the recipient's contact information;
+- The recipient is eligible and authorized to receive that access; and
+- The permissions you select are appropriate.
+
+An invited person must use their own account and agree to these Terms. Account roles, permissions, limits, and available sharing features are those shown in the Service or in the applicable purchase terms.
+
+You are responsible for reviewing and revoking access when it is no longer appropriate. Revocation prevents future access through the Service but cannot recall information someone already viewed, copied, exported, printed, photographed, or otherwise retained.
 
 ---
 
 ## 3. Acceptable Use
 
-### 3.1 Permitted Uses
+You may use the Service only for its intended personal and family caregiving purposes and in compliance with these Terms and applicable law. You may not:
 
-You may use the App to:
-
-- Track your child's OIT doses, reactions, and notes
-- Review your child's treatment history
-- Share data with authorized family members and other caregivers via family sharing (Section 2.3)
-
-### 3.2 Prohibited Uses
-
-You agree **not** to:
-
-- Create or manage a child's profile unless you are the child's parent or legal guardian or have been authorized by the parent or legal guardian through family sharing
-- Permit a child under 13 to sign in, accept an invitation, operate the App, enter information, or use your account or credentials
-- Misrepresent your age or age-eligibility class, or help another person misrepresent theirs
-- Knowingly enter fraudulent, false, or intentionally misleading information
-- Attempt to access other users' data
-- Reverse engineer, decompile, or attempt to extract the source code, except to the extent applicable law expressly permits that activity
-- Copy or misuse the App, our confidential information, or our intellectual property to develop a competing product
-- Violate any applicable laws or regulations
-- Use automated systems or bots to access the App without our written permission, except for assistive technologies or other activity protected by applicable law
+- Use the Service or submit information without the necessary authority, rights, or permissions;
+- Use the Service for unlawful, fraudulent, abusive, or harmful activity;
+- Access or attempt to access another person's account or records without authorization;
+- Interfere with the Service, bypass access controls or usage limits, probe for vulnerabilities, or introduce malicious code;
+- Use bots, scrapers, or other automated means to access the Service without our written permission, except for assistive technology or activity protected by law;
+- Copy, modify, reverse engineer, decompile, disassemble, or derive source code from the Service, except to the extent applicable law does not permit that restriction;
+- Infringe, misappropriate, or violate another person's privacy, confidentiality, intellectual-property, or other rights; or
+- Resell, sublicense, or operate the Service as a commercial or clinical record system.
 
 ---
 
-## 4. Health Data and Privacy
+## 4. User Data and Privacy
 
-### 4.1 Your Data and Permission to Operate the Service
+### 4.1 Your Rights and Our Permission
 
-As between you and us, you retain your rights in the health information, action plans, notes, documents, and other content you submit to the App (**User Data**). You grant us a limited, non-exclusive, worldwide license to host, copy, process, transmit, display, synchronize, back up, and share User Data with Users you authorize, solely to operate, secure, and support the App, comply with law, and otherwise act as described in our [Privacy Policy](/legal/privacy-policy). This license ends when the User Data is permanently deleted from our systems, except to the extent we must retain information to comply with law or resolve security, fraud, or legal matters.
+As between you and us, you retain your rights in information, documents, notes, and other content you submit to the Service ("User Data"). You grant us a limited, non-exclusive, worldwide license to host, copy, process, transmit, display, and otherwise use User Data only as reasonably necessary to operate, secure, and support the Service, comply with law, enforce these Terms, and carry out the practices described in our privacy policies. This license ends when the User Data is permanently deleted from our systems, except where continued retention is permitted or required by law.
 
-You represent that you have the rights and permissions necessary to submit User Data, including information about a child, caregiver, healthcare provider, clinic, and any document you upload, and to authorize the uses described in these Terms and the Privacy Policy.
+You represent that you have all rights and permissions needed to submit User Data and authorize its use, including for information about a child, caregiver, healthcare provider, clinic, or document.
 
-### 4.2 Data Accuracy
+### 4.2 Accuracy and Copies
 
-You are responsible for the accuracy of the data you enter. We do not verify or validate the medical information you provide.
+You are responsible for User Data you submit and for reviewing its accuracy. We do not independently verify medical information or guarantee that User Data will be preserved without loss or corruption. Keep independent copies of original documents and records you may need.
 
-### 4.3 No Guarantees
+### 4.3 Privacy Policies
 
-While we strive to maintain reliable service, we do not guarantee that:
-
-- The App will be available at all times
-- Your data will never be lost; keep an independent copy of original action plans and any records you may need for treatment or emergencies
-- The App will be free of errors or bugs
+Our [Privacy Policy](https://oittracker.com/legal/privacy-policy) explains our general personal-information practices. Our separate [Consumer Health Data Privacy Policy](https://oittracker.com/legal/consumer-health-data-privacy-policy) provides additional disclosures and rights relating to consumer health data.
 
 ---
 
-## 5. Purchases, Subscriptions, and Payments
+## 5. Subscriptions and Payments
 
-### 5.1 Subscription Tiers
+### 5.1 Purchase Terms
 
-The App is a subscription-only service. There is no one-time purchase. Both tiers include the App's core tracking features (dose logging, sickness mode, calendar history, reactions, family sharing, offline use, and cloud sync); the Family+ tier adds a larger caregiver network and convenience features, as described in Section 5.4.
+Some or all features require an auto-renewing subscription purchased through Apple. Before you confirm a purchase, the purchase flow displays the subscription's price, currency, billing period, included access, and any trial or promotional terms. Those transaction-specific terms control if they conflict with a general description in these Terms or elsewhere in the Service.
 
-| Tier | Price | Children | Editors / Viewers | Additional Features |
-|------|-------|----------|-------------------|---------------------|
-| Family (Monthly) | $12.99 / month | Up to 1 | Editors (can log doses): you + an optional co-owner (free); Viewers (read-only): up to 1 | Core tracking features, family sharing, cloud sync |
-| Family (Yearly) | $89.99 / year | Up to 1 | Editors (can log doses): you + an optional co-owner (free); Viewers (read-only): up to 1 | Same as monthly |
-| Family+ (Monthly) | $19.99 / month | Up to 3 | Editors (can log doses): you + an optional co-owner (free) + up to 2 caregivers; Viewers (read-only): up to 5 | Family features + a larger caregiver network + cloud action-plan parsing when available |
-| Family+ (Yearly) | $149.99 / year | Up to 3 | Editors (can log doses): you + an optional co-owner (free) + up to 2 caregivers; Viewers (read-only): up to 5 | Same as Family+ monthly |
+### 5.2 Renewal, Cancellation, and Refunds
 
-An **Editor** is a User who can log doses and write to your child's records. The Primary Owner and an optional Co-Owner are Editors on every tier; beyond them you may add Authorized Caregivers or Authorized Minors age 13 or older as Editors, up to your tier's cap (0 on Family, up to 2 on Family+). A **Viewer** is a User with read-only access (for example, a grandparent or school nurse who only needs to see the records); Viewers are **capped at 1 on Family and 5 on Family+**. An Authorized Minor age 13 or older may hold an Editor or Viewer role; this does not reduce the child limit.
+Payment is charged to your Apple Account. A subscription automatically renews unless you cancel at least 24 hours before the end of the current billing period. Apple may charge the renewal within 24 hours before that period ends. You can manage or cancel a subscription through your Apple Account subscription settings.
 
-The prices above are U.S. list prices and do not include any applicable taxes. The localized price, currency, trial eligibility, and billing terms displayed by Apple at the time you confirm a purchase control if they differ from this table.
+Deleting the App or your OIT Tracker account does not cancel an Apple subscription. Canceling a subscription does not delete your OIT Tracker account or User Data. Refunds and billing disputes are handled by Apple under its policies and applicable law.
 
-### 5.2 Free Trial
+### 5.3 Trials, Changes, and Expiration
 
-Eligible new subscribers may receive a **14-day free trial** when the offer is displayed by Apple at signup. Eligibility is determined by Apple and may depend on your prior subscriptions or introductory offers. During an offered trial, you receive access to the feature set disclosed on the purchase screen. Your selected tier will automatically begin billing at the price shown by Apple when the trial ends unless you cancel before the cancellation deadline shown by Apple. You can manage or cancel the subscription in your Apple ID settings.
+If a trial or promotion is offered, eligibility, duration, price after the offer, and cancellation deadline are disclosed before purchase. Unless the disclosed terms say otherwise, a trial converts to a paid subscription unless canceled before the deadline Apple displays. Unused trial time may be forfeited as disclosed by Apple.
 
-If you cancel or the trial ends without an active subscription, the App reverts to a read-only state: existing data remains viewable, but new dose logging and other data-entry features are disabled until you subscribe.
-
-### 5.3 Subscription Terms
-
-- Payment is processed by Apple through the App Store
-- **Subscriptions automatically renew** at the end of each billing period (monthly or yearly) at the then-current price for your tier
-- To avoid auto-renewal, you must cancel at least 24 hours before the end of the current period
-- You can manage and cancel subscriptions at any time in your Apple ID settings (Settings → Apple ID → Subscriptions on iOS)
-- Refunds are handled according to Apple's App Store policies
-- Any unused portion of a free trial is forfeited when you purchase a subscription, to the extent applicable by law
-
-### 5.4 Tier Differences
-
-The Family tier and the Family+ tier share the same **core tracking** feature set — dose logging, sickness mode, calendar history, reactions, family sharing, offline use, and cloud sync are available on **both** tiers. The Family+ tier is intended for households that need more than 1 child, additional dose-logging caregivers, or a larger viewer network, and additionally includes the following, which are **Family+ only**:
-
-- **A larger caregiver network:** Up to 3 children, up to 2 edit-permission caregivers (beyond the free owner + co-owner), and up to 5 viewers
-- **Cloud action-plan parsing, when available and enabled:** Automated extraction of your child's allergist action plan by transmitting a page image transiently to a third-party AI processing provider that extracts the fields on our behalf and does not retain or train on it, as described in the Privacy Policy
-
-**Support is the same on both tiers.** We aim to answer every User's support email as quickly as we can, regardless of tier; we do not offer or charge for a faster response time.
-
-### 5.5 Subscription Lapse and Read-Only State
-
-Because OIT Tracker is used for medical dose tracking, we take special care to protect your data during subscription changes:
-
-- **During Apple's billing retry or grace period, if applicable:** Full access continues only while Apple reports that your subscription entitlement remains active
-- **When a subscription fully expires:** The App enters a read-only state. All historical data — doses, reactions, notes, sickness-mode history, action plans — remains viewable. New dose logging and other data-entry features are disabled until you re-subscribe.
-- **Re-subscribing:** Full access is restored after Apple confirms the renewed subscription entitlement
-- **Data retention:** A subscription lapse alone does not delete your data. Account deletion and long-term inactivity are handled under Section 10.3 and the Privacy Policy
-
-### 5.6 Tier Changes
-
-You may request a tier change (for example, an upgrade from Family to Family+, or a switch between monthly and yearly billing) through your Apple ID subscription settings. Apple determines when a change takes effect and whether proration applies. If a downgrade leaves you over the new tier's child, Editor, or Viewer limits, the App may require you to choose which children and shared-access relationships remain active. Records that become inactive remain subject to the read-only and retention terms in Sections 5.5 and 10.
-
-### 5.7 Promotional Programs
-
-We may offer promotional pricing, introductory offers, or limited-time discounts. Promotional terms, eligibility, and duration will be disclosed at the time of the offer. Promotional pricing does not affect the standard pricing described in this Section 5 unless otherwise stated.
-
-### 5.8 Price Changes
-
-We may change subscription prices. Apple will display or send any notice and request any consent required by its policies or applicable law before a new price applies to an existing subscription. You may cancel before the new price takes effect. The price Apple displays when you confirm a purchase or renewal controls.
+Apple determines when subscription, price, billing-period, and plan changes take effect and whether notice, consent, credit, or proration applies. When a subscription expires, access to some functionality may be limited. Account and User Data retention are governed by our Privacy Policy, not by subscription status alone.
 
 ---
 
-## 6. Intellectual Property
+## 6. Ownership and App License
 
-### 6.1 Our Rights
+The Service—including its software, design, text, graphics, and other content, but excluding User Data—is owned by us or our licensors and is protected by intellectual-property laws. No ownership rights are transferred to you.
 
-The App, including its design, features, and content (excluding your personal data), is owned by Jones Technical Enterprises, LLC and protected by copyright, trademark, and other intellectual property laws.
+Unless Apple presents a different license when you acquire the App, the license to install and use it is governed by Apple's [Standard Licensed Application End User License Agreement](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/) and Apple's applicable usage rules. These Terms govern the OIT Tracker account and Service and do not expand that app license. If the Apple agreement and these Terms conflict concerning the app license, the Apple agreement controls.
 
-### 6.2 Limited License
-
-We grant you a limited, non-exclusive, non-transferable, revocable license to use the App for personal, non-commercial purposes in accordance with these Terms.
-
-### 6.3 Feedback
-
-If you provide feedback or suggestions about the App, we may use them without any obligation to compensate you.
+If you provide feedback or suggestions, you grant us a perpetual, worldwide, royalty-free right to use them without restriction or compensation to you.
 
 ---
 
-## 7. Disclaimers
+## 7. Service and Third-Party Changes
 
-### 7.1 "As Is" Service
+We may update, modify, suspend, restrict, or discontinue all or part of the Service, including features and eligibility requirements. Where required by law, we will provide notice or honor applicable rights. We do not guarantee that any particular feature, integration, data format, or version will remain available.
 
-THE APP IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO:
-
-- Merchantability
-- Fitness for a particular purpose
-- Non-infringement
-- Accuracy or reliability of any information
-
-### 7.2 Medical Disclaimer (Restated)
-
-THE APP IS NOT INTENDED TO DIAGNOSE, TREAT, CURE, MITIGATE, OR PREVENT ANY DISEASE OR CONDITION, AND IT DOES NOT PROVIDE TREATMENT OR DOSING RECOMMENDATIONS. DO NOT MAKE A MEDICAL DECISION BASED ON AN AUTOMATED EXTRACTION, SUMMARY, REMINDER, TREND, OR OTHER INFORMATION DISPLAYED BY THE APP.
+The Service may depend on Apple and other third-party products or services. Their terms may also apply to you. We are not responsible for third-party products or services except to the extent applicable law provides otherwise.
 
 ---
 
-## 8. Limitation of Liability
+## 8. Suspension and Termination
 
-### 8.1 Cap on Liability
+You may stop using the Service at any time. You may request account deletion through the Service or contact **support@oittracker.com** for assistance. Subscription cancellation is separate and is addressed in Section 5.
 
-TO THE MAXIMUM EXTENT PERMITTED BY LAW, JONES TECHNICAL ENTERPRISES, LLC AND ITS OFFICERS, DIRECTORS, EMPLOYEES, AND AGENTS SHALL NOT BE LIABLE FOR:
+We may suspend or terminate access if you materially violate these Terms, fail to pay applicable charges, create a security or safety risk, use the Service unlawfully, or harm users, us, or third parties. We may also discontinue the Service. Where reasonably practicable, we will provide notice and an opportunity to cure, but we may act immediately when necessary to address fraud, unlawful conduct, security threats, or risk of harm.
 
-- Any indirect, incidental, special, consequential, or punitive damages
-- Any loss of profits, data, or goodwill
-- Any damages exceeding the amount you paid us in the 12 months preceding the claim (or $50 if you have not paid anything)
-
-### 8.2 Essential Purpose
-
-SOME JURISDICTIONS DO NOT ALLOW LIMITATIONS ON IMPLIED WARRANTIES OR EXCLUSION OF LIABILITY FOR CERTAIN DAMAGES. IF THESE LAWS APPLY TO YOU, SOME OR ALL OF THE ABOVE LIMITATIONS MAY NOT APPLY.
-
-Nothing in these Terms excludes or limits liability that cannot lawfully be excluded or limited, including liability for fraud, willful misconduct, or gross negligence, or for death or personal injury caused by negligence, in each case to the extent applicable law prohibits the limitation.
-
-### 8.3 Health-Related Harm
-
-EXCEPT FOR LIABILITY THAT CANNOT LAWFULLY BE EXCLUDED, WE ARE NOT RESPONSIBLE FOR HEALTH OUTCOMES, ALLERGIC REACTIONS, OR MEDICAL EVENTS MERELY BECAUSE THEY OCCUR DURING YOUR USE OF THE APP. ALWAYS FOLLOW YOUR HEALTHCARE PROVIDER'S INSTRUCTIONS, VERIFY INFORMATION AGAINST ORIGINAL CLINICAL DOCUMENTS, AND SEEK IMMEDIATE MEDICAL ATTENTION FOR EMERGENCIES.
+After termination, your right to use the Service ends, subject to any limited access we choose or are required to provide. User Data is handled under our Privacy Policy. Sections that by their nature should survive—including Sections 1, 4, 6, 9, 10, 11, 12, and 14—will survive.
 
 ---
 
-## 9. Indemnification
+## 9. Warranty Disclaimers
 
-To the extent permitted by law, you agree to indemnify and hold harmless Jones Technical Enterprises, LLC from third-party claims, damages, losses, or expenses (including reasonable attorneys' fees) arising from:
+**TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE SERVICE IS PROVIDED "AS IS" AND "AS AVAILABLE," WITH ALL FAULTS AND WITHOUT WARRANTIES OF ANY KIND. WE DISCLAIM ALL EXPRESS, IMPLIED, AND STATUTORY WARRANTIES, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, QUIET ENJOYMENT, NON-INFRINGEMENT, ACCURACY, RELIABILITY, AVAILABILITY, AND SECURITY.**
 
-- Your unlawful or unauthorized use of the App
-- Your material violation of these Terms
-- User Data you submit without the necessary rights or permissions
-- Your infringement or violation of a third party's rights
+We do not warrant that the Service will be uninterrupted, error-free, timely, complete, secure, or free from loss, corruption, or harmful components. No oral or written statement creates a warranty unless these Terms expressly say that it does.
 
-We will give you prompt notice of an indemnified claim and permit you to control its defense, provided that you may not settle a claim in a way that admits fault by us or imposes obligations on us without our written consent.
+Some jurisdictions do not allow certain warranty exclusions, so some exclusions may not apply to you.
 
 ---
 
-## 10. Termination
+## 10. Limitation of Liability
 
-### 10.1 By You
+### 10.1 Excluded Damages
 
-You may stop using the App at any time. Canceling a subscription stops future renewals but does not delete your account or User Data. You can request account deletion from within the App under **Settings → Account → Delete Account**; deletion is subject to the 90-day recovery period described in Section 10.3. You may also contact support@oittracker.com if you need assistance.
+**TO THE MAXIMUM EXTENT PERMITTED BY LAW, JONES TECHNICAL ENTERPRISES, LLC AND ITS AFFILIATES, MEMBERS, MANAGERS, OFFICERS, EMPLOYEES, CONTRACTORS, AGENTS, LICENSORS, AND SERVICE PROVIDERS (COLLECTIVELY, THE "COMPANY PARTIES") WILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES; LOSS OF PROFITS, REVENUE, BUSINESS, GOODWILL, OR DATA; OR COST OF SUBSTITUTE SERVICES ARISING OUT OF OR RELATED TO THE SERVICE OR THESE TERMS.**
 
-### 10.2 By Us
+The Company Parties do not assume responsibility for medical or emergency decisions, treatment changes, allergic reactions, or other health outcomes arising from use of or inability to use the Service, except to the extent liability cannot lawfully be excluded.
 
-We may suspend or terminate your access if you materially violate these Terms, create a security or safety risk, use the App unlawfully, fail to pay applicable charges, or engage in conduct that harms Users, us, or third parties. Where reasonably practicable, we will provide notice and an opportunity to cure. We may act immediately when necessary to address fraud, unlawful conduct, security threats, or a risk of harm.
+### 10.2 Liability Cap
 
-### 10.3 Effect of Termination
+**TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE COMPANY PARTIES' TOTAL AGGREGATE LIABILITY FOR ALL CLAIMS ARISING OUT OF OR RELATED TO THE SERVICE OR THESE TERMS WILL NOT EXCEED THE AMOUNT YOU PAID FOR THE SERVICE DURING THE 12 MONTHS BEFORE THE EVENT GIVING RISE TO THE CLAIM. IF YOU PAID NOTHING, THE CAP IS $50.**
 
-Suspension or termination of access does not by itself delete your account or User Data. If your subscription lapses, the App enters the read-only state described in Section 5.5. If you explicitly request account deletion, we soft-delete the account and retain the associated User Data for a 90-day recovery period before permanent deletion, subject to any retention required by law. Other inactive accounts are retained and deleted under the Privacy Policy's inactivity rules.
+These limitations apply regardless of the legal theory, whether a Company Party was advised that damages were possible, and even if a remedy fails of its essential purpose.
 
-Sections 1, 4, 6 through 9, 10.3, 11, 13, and any other provisions that by their nature should survive will continue after suspension, termination, or account deletion.
+To the maximum extent permitted by law, claims relating to the Service or these Terms must be brought against Jones Technical Enterprises, LLC, not against an individual member, manager, officer, employee, contractor, or agent solely because of that person's relationship with the company.
 
----
+### 10.3 Non-Waivable Rights
 
-## 11. Dispute Resolution
-
-### 11.1 Informal Resolution
-
-Before filing a formal dispute, please contact us at support@oittracker.com and describe the problem and requested resolution. We will try to resolve the issue informally within 30 days. This process is not required when it would cause a legal filing deadline to expire or when either party seeks urgent injunctive relief.
-
-### 11.2 Governing Law
-
-These Terms are governed by the laws of the State of Illinois, United States, without regard to conflict-of-law principles. This choice does not deprive you of non-waivable consumer protections provided by the law where you live.
-
-### 11.3 Jurisdiction
-
-Subject to any non-waivable right to bring a claim elsewhere, disputes arising from these Terms or the App shall be resolved in the Illinois state court located in the county of our principal office or the United States District Court whose district includes that office. You and we consent to the personal jurisdiction of those courts.
+Nothing in these Terms excludes or limits liability that cannot lawfully be excluded or limited. Depending on applicable law, this may include liability for fraud, willful misconduct, gross negligence, or death or personal injury caused by negligence. Some jurisdictions do not allow certain liability exclusions or caps, so some limitations may not apply to you.
 
 ---
 
-## 12. Changes to These Terms
+## 11. Indemnification
 
-We may update these Terms prospectively from time to time. We will notify you of material changes before they take effect by:
+To the extent permitted by law, you will defend, indemnify, and hold harmless the Company Parties from third-party claims, losses, liabilities, damages, judgments, and reasonable costs and attorneys' fees arising from:
 
-- Updating the "Last Updated" date at the top
-- Displaying a notice in the App or sending notice to the contact information associated with your account
+- Your unlawful or unauthorized use of the Service;
+- Your material violation of these Terms;
+- User Data you submit without the necessary rights or permissions; or
+- Your infringement or violation of a third party's rights.
 
-Where required by law, or when a change materially alters dispute terms or expands how previously collected sensitive health data may be used, we will request affirmative consent. Otherwise, your continued use after the stated effective date constitutes acceptance of the updated Terms. Changes do not retroactively alter the rules governing a dispute that arose before the change took effect unless both parties agree.
-
----
-
-## 13. General Provisions
-
-### 13.1 Entire Agreement
-
-These Terms, together with our Privacy Policy, constitute the entire agreement between you and us regarding the App.
-
-### 13.2 Severability
-
-If any provision of these Terms is found unenforceable, the remaining provisions will continue in effect.
-
-### 13.3 No Waiver
-
-Our failure to enforce any provision of these Terms does not waive our right to do so in the future.
-
-### 13.4 Assignment
-
-You may not assign your rights under these Terms without our written consent. We may assign these Terms to an affiliate or in connection with a merger, financing, reorganization, or sale of all or part of our business. We will provide notice if an assignment materially affects your rights or the handling of User Data.
-
-### 13.5 Apple App Store Terms
-
-OIT Tracker is distributed through the Apple App Store. Your license to use the App is also governed by Apple's standard **Licensed Application End User License Agreement (EULA)**, available at [https://www.apple.com/legal/internet-services/itunes/dev/stdeula/](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/). If there is any conflict between these Terms and Apple's standard EULA regarding your license to use the App, Apple's EULA governs that license. In addition:
-
-- These Terms are an agreement between you and Jones Technical Enterprises, LLC only, **not with Apple.** Apple is not responsible for the App or its content.
-- Apple has no obligation to provide maintenance or support for the App; we are solely responsible for support, as described in these Terms.
-- Apple is not responsible for any product warranties. If the App fails to conform to any applicable warranty, you may notify Apple, and Apple may refund the purchase price (if any); to the maximum extent permitted by law, Apple has no other warranty obligation regarding the App.
-- We, not Apple, are responsible for addressing any claims relating to the App, including product-liability, regulatory, and intellectual-property claims.
-- You represent that you are not located in a country subject to a U.S. Government embargo or designated "terrorist-supporting," and that you are not on any U.S. Government prohibited-party list.
-- **Apple and Apple's subsidiaries are third-party beneficiaries of these Terms, and Apple has the right to enforce these Terms against you as a third-party beneficiary.**
+We may control the defense of an indemnified claim. You will reasonably cooperate and may not settle a claim in a way that admits fault by, imposes obligations on, or fails to fully release a Company Party without our written consent.
 
 ---
 
-## 14. Contact Us
+## 12. Disputes and Governing Law
 
-If you have questions about these Terms, please contact us:
+### 12.1 Informal Resolution
+
+Before filing a formal dispute, please email **support@oittracker.com** with a description of the problem and requested resolution. The parties will attempt in good faith to resolve the dispute for 30 days. This process is not required if it would cause a legal filing deadline to expire or if a party seeks urgent injunctive relief.
+
+### 12.2 Governing Law and Courts
+
+Illinois law governs these Terms, without regard to conflict-of-law principles. This choice does not deprive you of non-waivable consumer protections provided by the law where you live.
+
+Subject to any non-waivable right to bring a claim elsewhere, any dispute arising from the Service or these Terms must be brought exclusively in the Illinois state court located in the county of our principal office or the United States District Court whose district includes that office. You and we consent to the personal jurisdiction of those courts.
+
+---
+
+## 13. Changes to These Terms
+
+We may update these Terms prospectively. We will provide notice of material changes before they take effect as required by law. If a change requires your affirmative consent, it will not apply to you unless you consent. Otherwise, continued use of the Service after the stated effective date constitutes acceptance of the updated Terms. If you do not agree, you must stop using the Service and cancel any subscription before the change takes effect.
+
+Changes do not retroactively alter the terms governing a dispute that arose before the change took effect unless both parties agree or applicable law provides otherwise.
+
+---
+
+## 14. General Terms
+
+These Terms, the transaction-specific terms presented at purchase, and the Apple agreement governing the app license constitute the entire agreement concerning the Service and replace prior or contemporaneous understandings on that subject. If there is a conflict, the transaction-specific terms control the transaction, the Apple agreement controls the app license, and these Terms control the remaining use of the Service.
+
+If a provision is unenforceable, it will be enforced to the maximum extent permitted or severed, and the remaining provisions will continue in effect. Our failure to enforce a provision is not a waiver. Headings are for convenience only.
+
+You may not assign these Terms without our written consent. We may assign them to an affiliate or in connection with a merger, financing, reorganization, sale of assets, or similar transaction.
+
+We are not liable for delay or failure caused by events beyond our reasonable control. The Company Parties may enforce the protections provided to them in these Terms, and Apple may enforce its rights under its agreement. Otherwise, these Terms do not create third-party beneficiary rights.
+
+---
+
+## 15. Contact Us
+
+Questions about these Terms may be sent to:
 
 **Jones Technical Enterprises, LLC**
-Email: support@oittracker.com
 
----
-
-*By using OIT Tracker, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service.*
+Email: **support@oittracker.com**

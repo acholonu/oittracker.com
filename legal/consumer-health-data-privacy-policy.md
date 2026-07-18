@@ -9,7 +9,7 @@ title: "Consumer Health Data Privacy Policy"
 
 **Last Updated:** July 17, 2026
 
-This Consumer Health Data Privacy Policy describes how Jones Technical Enterprises, LLC ("we," "us," or "our") collects, uses, and discloses consumer health data through the OIT Tracker mobile application (the "App"). It supplements our [Privacy Policy](/legal/privacy-policy) and applies where U.S. state consumer-health-data laws require it.
+This Consumer Health Data Privacy Policy describes how Jones Technical Enterprises, LLC ("we," "us," or "our") collects, uses, and discloses consumer health data through the OIT Tracker mobile application (the "App"). It supplements our [Privacy Policy](https://oittracker.com/legal/privacy-policy) and applies where U.S. state consumer-health-data laws require it.
 
 OIT Tracker helps families organize oral-immunotherapy records. Information recorded in the App can reveal a person's health conditions, symptoms, treatment, medication use, and treatment progress, so we treat it as consumer health data.
 
