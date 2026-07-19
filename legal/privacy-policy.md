@@ -7,7 +7,7 @@ title: "Privacy Policy"
 
 **Effective Date:** January 2, 2026
 
-**Last Updated:** July 17, 2026
+**Last Updated:** July 18, 2026
 
 Jones Technical Enterprises, LLC ("we," "us," or "our") operates the OIT Tracker mobile application (the "App"). This Privacy Policy explains what information we collect, why we use it, when we disclose it, how long we keep it, and the choices available to you.
 
@@ -120,7 +120,7 @@ If we discover a breach involving identifiable health information, we will inves
 
 ## 5. Retention and Deletion
 
-- **Active accounts:** We retain account and health data while the account is active. After 36 months without sign-in or data activity, we will notify you using available contact information and delete the account data unless you sign in to keep it active.
+- **Active and inactive accounts:** We retain account and health data while the account is active. If an account remains inactive for an extended period, we may delete the account data after attempting to notify you using available contact information and giving you an opportunity to keep the account active by signing in.
 - **Account deletion:** After you delete an account, we retain account-linked data for a 90-day recovery period and then permanently delete it. Synchronized health records, derived treatment-progress information, and family-sharing records follow this lifecycle.
 - **Product telemetry:** Individual telemetry events are retained for no more than 18 months and then deleted or aggregated. Telemetry already transmitted is not removed by the in-App account-deletion flow. While telemetry remains linkable, contact support before deleting the account if you want us to authenticate and process a deletion request for those records.
 - **AI processing:** Our backend does not retain the submitted action-plan image or extraction response. Limited security-related processing by the AI processor may occur as described in Section 2.
