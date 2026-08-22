@@ -7,7 +7,7 @@ title: "Consumer Health Data Privacy Policy"
 
 **Effective Date:** July 10, 2026
 
-**Last Updated:** July 17, 2026
+**Last Updated:** August 22, 2026
 
 This Consumer Health Data Privacy Policy describes how Jones Technical Enterprises, LLC ("we," "us," or "our") collects, uses, and discloses consumer health data through the OIT Tracker mobile application (the "App"). It supplements our [Privacy Policy](https://oittracker.com/legal/privacy-policy) and applies where U.S. state consumer-health-data laws require it.
 
@@ -85,7 +85,7 @@ You may also use these in-App controls:
 
 - Delete your account and account-linked records through **Settings → Account → Delete Account**
 - Revoke family-sharing access from the Account screen
-- Stop future product telemetry through **Settings → Privacy & Data** by switching off **Share Anonymous Analytics**
+- Decide whether to share usage analytics. Telemetry that may describe treatment activity (for example, logging a dose or entering sickness mode) is collected **only with your affirmative consent** — it is off unless you enable it during setup or through **Settings → Privacy & Data** (**Share Anonymous Analytics**), and you can withdraw that consent at any time; withdrawing discards unsent usage events and deletes the analytics identifier. Essential diagnostics (crash and structured error reports) are always sent to keep the App working; they carry technical error codes, record-category labels, and version information only — never dose amounts, symptoms, notes, names, or other health details
 - Choose whether to use AI-assisted action-plan entry and withdraw that choice for future documents
 
 We will respond without undue delay and ordinarily within 45 days. When reasonably necessary, we may extend the response period once by another 45 days and will explain the extension within the initial period. Access information is provided without charge up to twice per year, except where applicable law permits a reasonable fee or refusal for manifestly unfounded, excessive, or repetitive requests.

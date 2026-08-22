@@ -7,7 +7,7 @@ title: "Privacy Policy"
 
 **Effective Date:** January 2, 2026
 
-**Last Updated:** July 25, 2026
+**Last Updated:** August 22, 2026
 
 Jones Technical Enterprises, LLC ("we," "us," or "our") operates the OIT Tracker mobile application (the "App"). This Privacy Policy explains what information we collect, why we use it, when we disclose it, how long we keep it, and the choices available to you.
 
@@ -36,9 +36,10 @@ Free-text fields and documents may contain additional information you choose to 
 We may collect:
 
 - **Device and technical information:** Device type, operating-system version, App version, and limited information needed to operate and configure the App.
-- **Product telemetry:** Usage events, timestamps, App and device information, subscription tier, a randomly generated analytics identifier, and limited structured information about feature use. Some events may describe treatment activity, such as logging a dose or entering sickness mode, so we treat them as consumer health data when applicable. Telemetry does not include child names, email addresses, photos, precise location, or free-text notes in its event content, but transmitted telemetry may be linkable to an account or App installation.
+- **Essential diagnostics (always collected):** Crash reports, unresponsiveness (hang) reports, and structured error events (network, synchronization, and on-device storage errors). These carry technical error codes, App and device version information, and timestamps only — never child names, health details, free-text content, or precise location — and are strictly necessary to keep the App reliable and secure. They cannot be turned off in the App. When usage analytics is not enabled, essential diagnostics are sent under a short-lived, per-session random identifier, so no stable identifier is stored for your installation.
+- **Usage analytics (only with your consent):** Usage events, timestamps, App and device information, subscription tier, a randomly generated analytics identifier, and limited structured information about feature use. Some events may describe treatment activity, such as logging a dose or entering sickness mode, so we treat them as consumer health data when applicable. Usage analytics does not include child names, email addresses, photos, precise location, or free-text notes in its event content, but transmitted analytics may be linkable to an App installation. **We do not collect usage analytics unless you enable it** — during setup or in **Settings → Privacy & Data** — and you can turn it off again at any time as described in Section 6. Until you decide during setup, usage events are held on your device only (never transmitted) and are deleted after 7 days or when you decline, whichever comes first.
 
-Telemetry is buffered while offline and sent when the App has network access. It is optional and may be turned off as described in Section 6.
+Telemetry is buffered while offline and sent when the App has network access.
 
 ### 1.3 Website Waitlist
 
@@ -139,10 +140,10 @@ You can:
 - Review and correct most records directly in the App
 - Delete your account through **Settings → Account → Delete Account**
 - Change or revoke family-sharing access from the Account screen
-- Stop future product telemetry through **Settings → Privacy & Data** by switching off **Share Anonymous Analytics**; this also discards unsent events still queued on the device
+- Decide whether to share usage analytics: it is **off unless you enable it**, and you can enable or disable it at any time through **Settings → Privacy & Data** (**Share Anonymous Analytics**). Turning it off discards unsent usage events still queued on the device and deletes the analytics identifier. Essential diagnostics (crash and error reports, described in Section 1.2) are always sent to keep the App working and are not affected by this setting.
 - Request access, portability, correction, or deletion by emailing **support@oittracker.com**
 
-Despite the current analytics-setting label, transmitted telemetry may be linkable as described in Sections 1.2 and 5. For consumer-health-data rights and request procedures, see our [Consumer Health Data Privacy Policy](https://oittracker.com/legal/consumer-health-data-privacy-policy).
+Despite the analytics-setting label, transmitted telemetry may be linkable as described in Sections 1.2 and 5. For consumer-health-data rights and request procedures, see our [Consumer Health Data Privacy Policy](https://oittracker.com/legal/consumer-health-data-privacy-policy).
 
 We may take reasonable steps to verify your identity and authority before completing a request. We will not unlawfully discriminate against you for exercising a privacy right.
 
