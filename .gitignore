@@ -11,3 +11,6 @@ _site/
 
 # Reference PDFs (food allergy action plans from public sources)
 allergy-plans/
+
+# Internal docs (legal memos, security program) — never publish; repo is public
+internal-docs/
