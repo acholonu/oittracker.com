@@ -1,0 +1,32 @@
+# AWS Amplify Hosting build spec for oittracker.com (Jekyll).
+# Amplify runs these commands on every push to the connected branch,
+# then publishes whatever lands in _site/.
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        # Amplify's default build image doesn't promise a modern Ruby, so install one.
+        # Amazon Linux 2023 ships Ruby 3.4 under versioned names (ruby3.4, ruby3.4-gem).
+        # -devel, gcc and make are needed to compile the few gems with native code.
+        - sudo dnf install -y ruby3.4 ruby3.4-devel gcc gcc-c++ make
+        - ruby3.4 -v
+        # Keep every gem inside the project folder: no sudo needed, and Amplify can cache it.
+        # (Commands in a build share one shell, so these exports carry into the build phase.)
+        - export GEM_HOME="$PWD/vendor/gems" PATH="$PWD/vendor/gems/bin:$PATH"
+        # Match the Bundler version recorded in Gemfile.lock ("BUNDLED WITH").
+        - ruby3.4-gem install bundler -v 4.0.10 --no-document
+        - bundle -v
+        # Not --frozen: Bundler may add this machine's platform (x86_64-linux) to the
+        # lockfile copy on the build server. That change is never committed back.
+        - bundle install --jobs 4
+    build:
+      commands:
+        - JEKYLL_ENV=production bundle exec jekyll build
+  artifacts:
+    baseDirectory: _site
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - 'vendor/gems/**/*'

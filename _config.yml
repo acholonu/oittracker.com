@@ -2,3 +2,23 @@ title: OIT Tracker
 description: Track your child's oral immunotherapy treatment
 url: "https://oittracker.com"
 theme: minima
+
+# Files that exist in the repo (or on a local machine) but must never be published.
+# Setting `exclude` replaces Jekyll's defaults, so the defaults are repeated here.
+exclude:
+  # Jekyll defaults
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  # Repo housekeeping
+  - README.md
+  - amplify.yml
+  # Unreleased design experiments: keep them out of competitors' view
+  - previews/
+  # Local-only, gitignored folders (listed so local `jekyll serve` skips them too)
+  - internal-docs/
+  - allergy-plans/
