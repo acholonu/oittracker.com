@@ -97,7 +97,7 @@ You choose which children to share and whether the recipient may view or edit re
 
 Child photos and action-plan page images are not shared through family sharing. We use a communications provider to deliver the invitation email; it receives the recipient's email address and invitation code, not the child's name or health records.
 
-The primary owner may change permissions or revoke access. Revocation prevents future access through our systems but cannot recall information the recipient already viewed, downloaded, printed, or otherwise retained. If the primary owner deletes the account, family records follow the account-deletion process in Section 5; a co-owner does not automatically inherit them.
+The primary owner or co-owner may change permissions or revoke access. Revocation prevents future access through our systems but cannot recall information the recipient already viewed, downloaded, printed, or otherwise retained. If the primary owner deletes the account, family records follow the account-deletion process in Section 5; a co-owner does not automatically inherit them.
 
 ### 3.2 No Sale or Targeted Advertising
 
