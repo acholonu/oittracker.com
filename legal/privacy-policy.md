@@ -7,7 +7,7 @@ title: "Privacy Policy"
 
 **Effective Date:** January 2, 2026
 
-**Last Updated:** August 22, 2026
+**Last Updated:** October 23, 2026
 
 Jones Technical Enterprises, LLC ("we," "us," or "our") operates the OIT Tracker mobile application (the "App"). This Privacy Policy explains what information we collect, why we use it, when we disclose it, how long we keep it, and the choices available to you.
 
@@ -83,7 +83,7 @@ We disclose only the information needed for the following purposes:
 | Cloud hosting and operations providers | Account information, synchronized health records, derived metrics, technical information, and product telemetry | Host, secure, process, and synchronize the App |
 | Optional AI document processor | An action-plan image and the extraction response, only when you request AI-assisted entry | Extract information for your review |
 | Authentication and app-store providers | Authentication identifier, optional email address, and subscription or purchase status | Sign-in, identity, payment, and subscription management |
-| Communications providers | Waitlist email addresses; or a caregiver recipient's email address and invitation code | Send requested waitlist or caregiver-invitation emails |
+| Communications providers | Contact and account information needed to deliver emails you request, such as waitlist and caregiver-invitation emails | Send requested waitlist or caregiver-invitation emails |
 | People you authorize | The child and health records allowed by the permission you select | Provide family sharing |
 | Legal or regulatory recipients | Information legally required in the circumstances | Comply with valid legal process or applicable law |
 
@@ -95,7 +95,7 @@ Family sharing is optional. No health record is shared with another person until
 
 You choose which children to share and whether the recipient may view or edit records. A view-only recipient may have limited access to some record types, but safety information—including treated allergens, current sickness status, saved emergency-action information, and clinician contacts—remains visible. Editors and co-owners can access all records within the scope of their role. A co-owner can access and manage records for every child in the family, including children added later; only the primary owner may delete a child profile.
 
-Child photos and action-plan page images are not shared through family sharing. We use a communications provider to deliver the invitation email; it receives the recipient's email address and invitation code, not the child's name or health records.
+Child photos and action-plan page images are not shared through family sharing. We use a communications provider to deliver invitation emails. An invitation shows who sent it and never includes your child's name or health records.
 
 The primary owner or co-owner may change permissions or revoke access. Revocation prevents future access through our systems but cannot recall information the recipient already viewed, downloaded, printed, or otherwise retained. If the primary owner deletes the account, family records follow the account-deletion process in Section 5; a co-owner does not automatically inherit them.
 
