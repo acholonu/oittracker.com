@@ -59,8 +59,9 @@ They sign in with their own Apple ID on their own device and see the family's
 children and dose history. The co-owner seat is included — they do not buy a
 second subscription.
 
-If the subscription lapses, new co-owner invites are paused until it is
-renewed.
+If the subscription lapses, the co-owner and anyone else you share with keep
+access for three days so you can renew; after that their access is removed
+permanently, and renewing later means sending new invites.
 
 ### How do I manage or cancel my subscription?
 
