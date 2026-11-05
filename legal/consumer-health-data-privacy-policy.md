@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: legal
+pdf: /legal/consumer-health-data-privacy-policy.pdf
 title: "Consumer Health Data Privacy Policy"
 ---
 

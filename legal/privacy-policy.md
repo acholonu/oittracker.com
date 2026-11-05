@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: legal
+pdf: /legal/privacy-policy.pdf
 title: "Privacy Policy"
 ---
 

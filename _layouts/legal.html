@@ -150,6 +150,49 @@
       color: var(--teal);
     }
 
+    /* Breadcrumb row: "Back to Home" left, optional "Download PDF" right.
+       The button only renders when the page's front matter sets `pdf:`
+       (the three synced policies); Support has none. */
+    .page-actions {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .page-actions .breadcrumb {
+      margin-bottom: 0;
+    }
+
+    .pdf-download {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.5rem 0.875rem;
+      border: 1.5px solid var(--teal);
+      border-radius: 10px;
+      color: var(--teal);
+      font-size: 0.8125rem;
+      font-weight: 600;
+      border-bottom-width: 1.5px;
+    }
+
+    .pdf-download:hover {
+      background: var(--teal-dim);
+      color: var(--teal);
+    }
+
+    .pdf-download svg {
+      width: 16px;
+      height: 16px;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
     .breadcrumb svg {
       width: 14px;
       height: 14px;
@@ -378,10 +421,18 @@
 
   <!-- Legal Content -->
   <main class="legal-content">
-    <a href="/" class="breadcrumb">
-      <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
-      Back to Home
-    </a>
+    <div class="page-actions">
+      <a href="/" class="breadcrumb">
+        <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
+        Back to Home
+      </a>
+      {% if page.pdf %}
+      <a href="{{ page.pdf }}" class="pdf-download" download>
+        <svg viewBox="0 0 24 24"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 17v2a2 2 0 002 2h12a2 2 0 002-2v-2"/></svg>
+        Download PDF
+      </a>
+      {% endif %}
+    </div>
 
     {{ content }}
   </main>
