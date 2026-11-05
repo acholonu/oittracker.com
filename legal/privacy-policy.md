@@ -8,7 +8,7 @@ title: "Privacy Policy"
 
 **Effective Date:** January 2, 2026
 
-**Last Updated:** October 23, 2026
+**Last Updated:** November 5, 2026
 
 Jones Technical Enterprises, LLC ("we," "us," or "our") operates the OIT Tracker mobile application (the "App"). This Privacy Policy explains what information we collect, why we use it, when we disclose it, how long we keep it, and the choices available to you.
 
@@ -22,15 +22,15 @@ For disclosures and rights specifically concerning consumer health data, see our
 
 Depending on the features you use, you may provide:
 
-- **Account information:** An authentication identifier, optional email address, optional display name, and a device-generated identifier used for offline synchronization. We do not receive your account password from the authentication provider.
+- **Account information:** An authentication identifier, optional email address, optional display name, a device-generated identifier used for offline synchronization, and subscription status from the app-store provider. We do not receive your account password from the authentication provider or your payment-card details from the app-store provider.
 - **Age-eligibility information:** The App uses your date of birth on your device to determine whether you are an adult or an authorized minor age 13 or older, then discards the date. We store only the resulting eligibility class and the date of the check. If the user is under 13, the App does not create an account or collect usage data from that user.
-- **Child and treatment information:** A child's first name or nickname, optional date of birth, allergens, treatment details, dose history, reactions, sickness-mode periods, notes, care instructions, and derived treatment-progress information.
+- **Child and treatment information:** A child's first name or nickname, allergens, treatment details, dose history, reactions, sickness-mode periods, notes, care instructions, and derived treatment-progress information.
 - **Clinician and emergency information:** Optional clinician or clinic contact details, emergency contacts, medications, treatment instructions, and information saved from an emergency action plan.
 - **Photos and documents:** Child photos and action-plan page images are stored on your device. Child photos are never uploaded. An action-plan image leaves your device only if you choose and consent to AI-assisted entry, as described below.
 - **Caregiver information:** A caregiver's email address, requested permission level, and sharing status when you invite someone to access a child's records.
 - **Support communications:** Information you choose to include when contacting us.
 
-Free-text fields and documents may contain additional information you choose to provide. Avoid including information that is not needed to use the App.
+Free-text fields and documents may contain additional information you choose to provide.
 
 ### 1.2 Information Collected Automatically
 
@@ -45,10 +45,6 @@ Telemetry is buffered while offline and sent when the App has network access.
 ### 1.3 Website Waitlist
 
 If you join the waitlist at oittracker.com, we collect your email address and use an email service provider to manage the list and send launch communications. The waitlist does not collect child or health information. You may unsubscribe through any waitlist email.
-
-### 1.4 Information We Do Not Require
-
-We do not require Social Security numbers, government identifiers, financial-account information, or precise geolocation. App Store purchases are handled by the app-store provider; we receive subscription status, not your payment-card details.
 
 ---
 
@@ -65,13 +61,11 @@ We use information to:
 - Understand feature use, diagnose problems, secure the service, and improve the App
 - Comply with applicable law
 
-### Optional AI-Assisted Action-Plan Entry
+### Optional AI-Assisted Features
 
-If you choose and consent to AI-assisted entry, an action-plan page image is sent to a cloud AI processor to extract information for your review. Our backend does not store the submitted image or extraction response. The processor does not use the information to train models and does not retain it after processing, except for limited security-related processing. Only the information you review and save becomes part of the synchronized health record.
+If you choose and consent to an AI-assisted feature, the information you submit (today, an action-plan page image) is sent to a cloud AI processor to extract or organize information for your review. Our backend does not store the submitted information or the processor's response. The processor does not use the information to train models and does not retain it after processing, except for limited security-related processing. Only the information you review and save becomes part of the synchronized health record.
 
-AI-assisted entry organizes information; it does not make treatment or dosing decisions. Always compare extracted information with the original clinician-issued document.
-
-We do not use health data for targeted advertising, sell it, or use it to make treatment decisions about you or your child.
+AI-assisted features organize information; they do not make treatment or dosing decisions.
 
 ---
 
@@ -96,7 +90,7 @@ Family sharing is optional. No health record is shared with another person until
 
 You choose which children to share and whether the recipient may view or edit records. A view-only recipient may have limited access to some record types, but safety information—including treated allergens, current sickness status, saved emergency-action information, and clinician contacts—remains visible. Editors and co-owners can access all records within the scope of their role. A co-owner can access and manage records for every child in the family, including children added later; only the primary owner may delete a child profile.
 
-Child photos and action-plan page images are not shared through family sharing. We use a communications provider to deliver invitation emails. An invitation shows who sent it and never includes your child's name or health records.
+Child photos and action-plan page images are not shared through family sharing. An invitation shows who sent it and never includes your child's name or health records.
 
 The primary owner or co-owner may change permissions or revoke access. Revocation prevents future access through our systems but cannot recall information the recipient already viewed, downloaded, printed, or otherwise retained. If the primary owner deletes the account, family records follow the account-deletion process in Section 5; a co-owner does not automatically inherit them.
 
@@ -108,9 +102,9 @@ We do not sell, rent, or trade personal information or consumer health data. We 
 
 ## 4. Storage and Security
 
-The App is offline-first. Records are stored locally on your device so core features work without a network connection. Account and health records selected for synchronization are also stored on servers in the United States.
+Records are stored on your device. Account and health records selected for synchronization are also stored on servers in the United States.
 
-Child photos stay on the device where they were added. Action-plan images also stay on-device unless you request AI-assisted entry; in that case, the image is processed transiently as described in Section 2 and is not stored by our backend.
+Child photos never leave the device where you added them. Action-plan images also stay on your device unless you choose AI-assisted entry; then the image is sent for processing, used only to extract information for your review, and is not kept on our servers (see Section 2).
 
 We use administrative, technical, and physical safeguards designed to protect information, including encryption in transit and at rest, restricted server access, access logging, and secure authentication. No system can be guaranteed completely secure.
 
@@ -124,7 +118,7 @@ If we discover a breach involving identifiable health information, we will inves
 
 - **Active and inactive accounts:** We retain account and health data while the account is active. If an account remains inactive for an extended period, we may delete the account data after attempting to notify you using available contact information and giving you an opportunity to keep the account active by signing in.
 - **Account deletion:** After you delete an account, we retain account-linked data for a 90-day recovery period and then permanently delete it. Synchronized health records, derived treatment-progress information, and family-sharing records follow this lifecycle.
-- **Product telemetry:** Individual telemetry events are retained for no more than 18 months and then deleted or aggregated. Telemetry already transmitted is not removed by the in-App account-deletion flow. While telemetry remains linkable, contact support before deleting the account if you want us to authenticate and process a deletion request for those records.
+- **Product telemetry:** We retain usage analytics and diagnostic events for as long as they are useful for understanding feature use, diagnosing problems, and improving the App. Telemetry already transmitted is not removed by the in-App account-deletion flow. While telemetry remains linkable, contact support before deleting the account if you want us to authenticate and process a deletion request for those records.
 - **Security and change records:** To secure the App and diagnose synchronization problems, we keep a record of which device created, updated, or deleted each item, together with timestamps. These records use internal identifiers and the type of item changed; they do not contain names, notes, or the contents of a record, although the type of item can indicate treatment activity. We retain these records only as long as needed for those purposes and then delete them, and they are also deleted with the rest of your account-linked data when you delete your account.
 - **AI processing:** Our backend does not retain the submitted action-plan image or extraction response. Limited security-related processing by the AI processor may occur as described in Section 2.
 
@@ -177,19 +171,13 @@ To submit a request, email **support@oittracker.com**. We may verify the request
 
 ---
 
-## 9. Third-Party Links
-
-The App may link to third-party resources. We are not responsible for their privacy practices, and we encourage you to review their policies.
-
----
-
-## 10. Changes to This Policy
+## 9. Changes to This Policy
 
 We may update this policy by changing the "Last Updated" date. We will provide an in-App notice of material changes and request affirmative consent when required before materially expanding how previously collected personal or health information is used or disclosed.
 
 ---
 
-## 11. Contact Us
+## 10. Contact Us
 
 **Jones Technical Enterprises, LLC**
 
@@ -199,7 +187,7 @@ For privacy inquiries, include **Privacy** in the subject line.
 
 ---
 
-## 12. Users Outside the United States
+## 11. Users Outside the United States
 
 OIT Tracker is intended for use in the United States and does not target users in the European Economic Area, United Kingdom, or other regions. If you access the App from outside the United States, you are responsible for applicable local requirements, and your information will be processed in the United States as described here. We will update this policy before intentionally expanding availability to regions requiring additional disclosures or safeguards.
 
