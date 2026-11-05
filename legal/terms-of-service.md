@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: legal
+pdf: /legal/terms-of-service.pdf
 title: "Terms of Service"
 ---
 
