@@ -75,6 +75,13 @@ Apple's instructions: <https://support.apple.com/en-us/HT202039>
 
 Open **Settings**, tap **Account**, then **Delete Account**.
 
+Haven't reached the main app yet — no subscription, or still setting up your
+first child? You can delete your account without Settings: **Delete Account**
+is the last item on the welcome screen, in the **Account** menu at the top of
+the setup screens, and at the bottom of the "You're all set" screen. A teen
+waiting to join a family finds it at the bottom of the "You're not in a family
+yet" screen. Every one of these asks you to confirm before anything is deleted.
+
 This deletes your account and your children's records from our servers — dose
 history, reactions, and notes are permanently removed after a 90-day retention
 period. Data already on your device is cleared when you delete the account, and
